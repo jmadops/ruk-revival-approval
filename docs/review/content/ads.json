@@ -1,0 +1,282 @@
+[
+  {
+    "file": "Ads/01 Original concepts - no price/01-who-pastors-you-no-price.png",
+    "concept": "01-who-pastors-you-no-price",
+    "group": "original",
+    "headline": "PASTORS: WHO PASTORS YOU?",
+    "size": [
+      1080,
+      1080
+    ],
+    "word_count": null,
+    "provider": "WaveSpeed",
+    "model": "openai/gpt-image-2/edit",
+    "sha256": "a0c5c0defc7905c7fd0076f0e952df35f8ab25dbf7bbf5bc1098400311c6f1ae"
+  },
+  {
+    "file": "Ads/01 Original concepts - no price/02-family-leftovers-no-price.png",
+    "concept": "02-family-leftovers-no-price",
+    "group": "original",
+    "headline": "THE CHURCH GETS YOUR BEST. YOUR FAMILY GETS WHAT\u2019S LEFT.",
+    "size": [
+      1080,
+      1080
+    ],
+    "word_count": null,
+    "provider": "WaveSpeed",
+    "model": "openai/gpt-image-2/edit",
+    "sha256": "769de1ca5ad2b78da1c9ba7241b2b4e39463d7a17572c6a4a389bc901702ed18"
+  },
+  {
+    "file": "Ads/01 Original concepts - no price/03-sermon-prep-no-price.png",
+    "concept": "03-sermon-prep-no-price",
+    "group": "original",
+    "headline": "WHEN TIME WITH GOD BECOMES SERMON PREP.",
+    "size": [
+      1080,
+      1080
+    ],
+    "word_count": null,
+    "provider": "WaveSpeed",
+    "model": "openai/gpt-image-2/edit",
+    "sha256": "873e8773a3815bbaac10f41674730fd5670ce11a854ff3d3ce01091229756333"
+  },
+  {
+    "file": "Ads/01 Original concepts - no price/04-everyone-has-access-no-price.png",
+    "concept": "04-everyone-has-access-no-price",
+    "group": "original",
+    "headline": "EVERYONE HAS ACCESS TO YOU. WHO KNOWS WHAT YOU\u2019RE CARRYING?",
+    "size": [
+      1080,
+      1080
+    ],
+    "word_count": null,
+    "provider": "WaveSpeed",
+    "model": "openai/gpt-image-2/edit",
+    "sha256": "abc58ffdbe0b257a66865a8273699bcba49775fb8d614d234b682a4c993bedf8"
+  },
+  {
+    "file": "Ads/01 Original concepts - no price/05-three-days-no-price.png",
+    "concept": "05-three-days-no-price",
+    "group": "original",
+    "headline": "THREE DAYS. THE MAN BEHIND THE PULPIT.",
+    "size": [
+      1080,
+      1080
+    ],
+    "word_count": null,
+    "provider": "WaveSpeed",
+    "model": "openai/gpt-image-2/edit",
+    "sha256": "1052daeaafac3c4595ac2d08b0e32adc51f56447b695efe284016fba85ab9da9"
+  },
+  {
+    "file": "Ads/01 Original concepts - no price/06-running-empty-no-price.png",
+    "concept": "06-running-empty-no-price",
+    "group": "original",
+    "headline": "THE MINISTRY KEEPS MOVING. THE MAN IS RUNNING EMPTY.",
+    "size": [
+      1080,
+      1080
+    ],
+    "word_count": null,
+    "provider": "WaveSpeed",
+    "model": "openai/gpt-image-2/edit",
+    "sha256": "baeb6e95aaa609b2aa1464c47cf094d6cbe4ada07974b024fe653ebb2f0a73e4"
+  },
+  {
+    "file": "Ads/01 Original concepts - no price/07-present-at-home-no-price.png",
+    "concept": "07-present-at-home-no-price",
+    "group": "original",
+    "headline": "LEAD THE CHURCH. BE PRESENT AT HOME.",
+    "size": [
+      1080,
+      1080
+    ],
+    "word_count": null,
+    "provider": "WaveSpeed",
+    "model": "openai/gpt-image-2/edit",
+    "sha256": "37117785b1fad28219aeaa52cdd3f470d380d9b51f2b016bf72b00aa724ce372"
+  },
+  {
+    "file": "Ads/01 Original concepts - no price/08-four-pillars-no-price.png",
+    "concept": "08-four-pillars-no-price",
+    "group": "original",
+    "headline": "REBUILD YOUR FAITH. RECONNECT AT HOME. TAKE YOUR HEALTH SERIOUSLY.",
+    "size": [
+      1080,
+      1080
+    ],
+    "word_count": null,
+    "provider": "WaveSpeed",
+    "model": "openai/gpt-image-2/edit",
+    "sha256": "cbe62821d986ee7a97132cd43030e60b391d93be0c8acf63963dfcfa8f052ad5"
+  },
+  {
+    "file": "Ads/01 Original concepts - no price/09-every-decision-no-price.png",
+    "concept": "09-every-decision-no-price",
+    "group": "original",
+    "headline": "EVERY DECISION. EVERY CRISIS. EVERY CALL. ALL THROUGH YOU.",
+    "size": [
+      1080,
+      1080
+    ],
+    "word_count": null,
+    "provider": "WaveSpeed",
+    "model": "openai/gpt-image-2/edit",
+    "sha256": "fe2d97d0e48509c926e9960830b29ecedb00bed046a2f09cbd4827d11c5b964e"
+  },
+  {
+    "file": "Ads/01 Original concepts - no price/10-church-investment-no-price.png",
+    "concept": "10-church-investment-no-price",
+    "group": "original",
+    "headline": "INVEST IN THE MAN YOUR CHURCH DEPENDS ON.",
+    "size": [
+      1080,
+      1080
+    ],
+    "word_count": null,
+    "provider": "WaveSpeed",
+    "model": "openai/gpt-image-2/edit",
+    "sha256": "e62c7897e6bdb9c3d027047fb8628051c4e4021045a259d0889caa4af1283de8"
+  },
+  {
+    "file": "Ads/02 Short copy - no price/11-who-pastors-you.png",
+    "concept": "11-who-pastors-you",
+    "group": "short",
+    "headline": "PASTORS: WHO PASTORS YOU?",
+    "size": [
+      1080,
+      1080
+    ],
+    "word_count": 13,
+    "provider": "WaveSpeed",
+    "model": "openai/gpt-image-2/edit",
+    "sha256": "79b8d5b23692b10a1b195be060056d269dbd90ab8f90acca1b9241d171abd412"
+  },
+  {
+    "file": "Ads/02 Short copy - no price/12-family-needs-you.png",
+    "concept": "12-family-needs-you",
+    "group": "short",
+    "headline": "YOUR FAMILY NEEDS YOU.",
+    "size": [
+      1080,
+      1080
+    ],
+    "word_count": 13,
+    "provider": "WaveSpeed",
+    "model": "openai/gpt-image-2/edit",
+    "sha256": "0eee3a9c79b99fb2588f223ab365a8fcf0e4747f7ad34c84ad48f52652e4cb1a"
+  },
+  {
+    "file": "Ads/02 Short copy - no price/13-faith-beyond-sunday.png",
+    "concept": "13-faith-beyond-sunday",
+    "group": "short",
+    "headline": "FAITH BEYOND SUNDAY.",
+    "size": [
+      1080,
+      1080
+    ],
+    "word_count": 12,
+    "provider": "WaveSpeed",
+    "model": "openai/gpt-image-2/edit",
+    "sha256": "32735a179fd70f924882d3af72d210d670004e7ca4187ee4737929ec863618d2"
+  },
+  {
+    "file": "Ads/02 Short copy - no price/14-carry-it-alone.png",
+    "concept": "14-carry-it-alone",
+    "group": "short",
+    "headline": "YOU DON\u2019T HAVE TO CARRY IT ALONE.",
+    "size": [
+      1080,
+      1080
+    ],
+    "word_count": 16,
+    "provider": "WaveSpeed",
+    "model": "openai/gpt-image-2/edit",
+    "sha256": "fa71f83d31cfeffcb46958929350060d602ce3256469ef707c95a9568d9e0f65"
+  },
+  {
+    "file": "Ads/02 Short copy - no price/15-behind-the-pulpit.png",
+    "concept": "15-behind-the-pulpit",
+    "group": "short",
+    "headline": "THE MAN BEHIND THE PULPIT.",
+    "size": [
+      1080,
+      1080
+    ],
+    "word_count": 14,
+    "provider": "WaveSpeed",
+    "model": "openai/gpt-image-2/edit",
+    "sha256": "476663568317ae23349a094d579c9d2f89301ac2fca1e1a444d257fc65f1213d"
+  },
+  {
+    "file": "Ads/02 Short copy - no price/16-still-called.png",
+    "concept": "16-still-called",
+    "group": "short",
+    "headline": "STILL CALLED. RUNNING EMPTY.",
+    "size": [
+      1080,
+      1080
+    ],
+    "word_count": 13,
+    "provider": "WaveSpeed",
+    "model": "openai/gpt-image-2/edit",
+    "sha256": "57999dc27caf9ba890dadae24ad1ee4298be8229dfcea27ba9cec17a52e7043b"
+  },
+  {
+    "file": "Ads/02 Short copy - no price/17-present-at-home.png",
+    "concept": "17-present-at-home",
+    "group": "short",
+    "headline": "BE PRESENT AT HOME.",
+    "size": [
+      1080,
+      1080
+    ],
+    "word_count": 13,
+    "provider": "WaveSpeed",
+    "model": "openai/gpt-image-2/edit",
+    "sha256": "9d5ce11642815452146469453019a733a771dedd7c4e41ddb1e034d815dc9620"
+  },
+  {
+    "file": "Ads/02 Short copy - no price/18-health-calendar.png",
+    "concept": "18-health-calendar",
+    "group": "short",
+    "headline": "YOUR HEALTH BELONGS ON THE CALENDAR.",
+    "size": [
+      1080,
+      1080
+    ],
+    "word_count": 15,
+    "provider": "WaveSpeed",
+    "model": "openai/gpt-image-2/edit",
+    "sha256": "e24c9133daf8f06dd6c64814cdff1ef63ee83f8f80c6666434e89af89b75ec2c"
+  },
+  {
+    "file": "Ads/02 Short copy - no price/19-always-on-call.png",
+    "concept": "19-always-on-call",
+    "group": "short",
+    "headline": "ALWAYS ON CALL?",
+    "size": [
+      1080,
+      1080
+    ],
+    "word_count": 12,
+    "provider": "WaveSpeed",
+    "model": "openai/gpt-image-2/edit",
+    "sha256": "dda7c62eb3a50f1e3d82f27f8b3745e4ef7e88052f5da66a1066e0926192df26"
+  },
+  {
+    "file": "Ads/02 Short copy - no price/20-make-time.png",
+    "concept": "20-make-time",
+    "group": "short",
+    "headline": "MAKE TIME FOR THE MAN.",
+    "size": [
+      1080,
+      1080
+    ],
+    "word_count": 14,
+    "provider": "WaveSpeed",
+    "model": "openai/gpt-image-2/edit",
+    "sha256": "4715dc2baebec1549c80daa42497f646343031993ccce05129ceaf83ba7d5815"
+  }
+]
