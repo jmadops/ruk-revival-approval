@@ -20,7 +20,15 @@ The page uses attributed accounts published by RUK Ministries:
 
 The latter two are presented as pastor accounts published by Ministries, not independently identified Google reviews or proof of a specific Revival cohort. The quoted experiences are the speakers' own accounts, not guarantees for future participants.
 
-A web search did not produce an independently verifiable, more detailed Revival-specific Google review suitable to replace these accounts. The stronger existing Ministries quotation is used instead, as allowed in Will's feedback. No generic Google review is relabelled as Revival-specific.
+Google Maps was checked directly, using the review search for “revival” on the Rise Up Kings listing at 1984 Business Pk Blvd, Argyle, TX. Three short excerpts are now added to the landing page, each linked to its own full Google review. All three reviews explicitly mention Revival. The existing Ministries accounts remain.
+
+- [Keith Cabral](https://maps.app.goo.gl/41teFwh62Cu8rxkq7): The reviewer identifies himself as a pastor and explicitly names RUK Revival, Class 10. The selected sentence concerns family priorities.
+- [Chris Rice](https://maps.app.goo.gl/EquGMLo1fD7CbnKe7): The review explicitly names Rise Up Kings Revival. The selected sentence concerns community and isolation.
+- [Mark Hernandez](https://maps.app.goo.gl/V4QcxFzMV3fCLi2D8): The reviewer identifies himself as a pastor. The selected sentence is in the opening account of Revival. A later addition discusses a separate Forge experience; that material is not used.
+
+Each selected Google review displayed five stars when checked. The page shows those individual ratings, not an organisation-wide rating or count presented as Revival-only proof. Source verification covers the public author name, text, rating and Revival reference; it is not independent verification of the reviewer’s experience.
+
+See GOOGLE-REVIEWS.md in the download pack for the excerpt and provenance record.
 
 ## Opt-in flow
 

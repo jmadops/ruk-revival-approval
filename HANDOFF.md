@@ -10,6 +10,8 @@ A self-contained static landing page, a KSP-style opt-in modal, revised opt-in e
 
 The page uses the existing Ministries Wistia video (`5w5ll9rwvc`), the complete training-room image, the supplied opening angle with Will's corrections, and the Ministries website content from Our Approach onward. Pricing, event dates, countdowns, and general Google star counts are omitted. The application is not embedded.
 
+The page also includes three Google-review excerpts from Keith Cabral, Chris Rice and Mark Hernandez. Each review explicitly names Revival and has a direct Google review link. The ratings shown belong to those individual reviews. The existing pastor accounts and approved email copy remain unchanged by this addition. See `docs/review/downloads/google-reviews.md` for the source record.
+
 ## Reference funnels checked on 10 September 2026
 
 All four repositories available in the Rise-Up-Kings organisation were inspected from current `main`:

@@ -55,6 +55,7 @@ with tempfile.TemporaryDirectory(prefix='revival-pack-') as td:
  for folder in ['images','fonts','content']:shutil.copytree(docs/folder,pack/'Landing Page'/folder)
  shutil.copy2(review/'downloads/primary-copy.md',pack/'PRIMARY-COPY.md')
  shutil.copy2(review/'downloads/source-checks.md',pack/'Review/SOURCE-CHECKS.md')
+ shutil.copy2(review/'downloads/google-reviews.md',pack/'Review/GOOGLE-REVIEWS.md')
  shutil.copy2(repo/'HANDOFF.md',pack/'Review/TEAM-HANDOFF.md')
  (pack/'Review/FUNNEL-CHECK.md').write_text('# Opt-in-first flow\n\nLanding page → name/email/phone modal → application. The approval version is a preview only: no contact details are sent or saved. Final endpoint, application URL and consent/link setup remain with RUK’s team.\n\nEmails run only while the application has not been submitted. See TEAM-HANDOFF.md for the integration contract and the four repositories checked.\n')
  (pack/'Review/QA.md').write_text('# Validation\n\nThe form checks name, email and phone. Automated tests cover preview isolation, accepted lead capture, invalid input, missing configuration, failed responses and timeouts. No real leads were submitted.\n\nOriginal ad image checksums are preserved. Active campaign copy has no pricing or event dates. Final destinations and email automation are not connected.\n')

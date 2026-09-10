@@ -49,5 +49,40 @@
   "rooted": [
     "Rise Up Kings is a movement founded on the Christian faith. It is our core spiritual conviction that the Christian faith provides people an opportunity to be saved, and to be spiritually reborn.",
     "Our work as a movement is largely about leading men to embrace the grace-gift of salvation, and to engage more deeply in their process of sanctification so they can live with strength!"
+  ],
+  "google_reviews": [
+    {
+      "id": "G01",
+      "name": "Keith Cabral",
+      "role": "Pastor",
+      "quote": "My family became a clearer priority as I was reminded that my first ministry is as a husband and father.",
+      "rating": 5,
+      "url": "https://maps.app.goo.gl/41teFwh62Cu8rxkq7",
+      "checked": "2026-09-10",
+      "context": "The reviewer identifies himself as a pastor and explicitly names RUK Revival, Class 10. The selected sentence concerns family priorities.",
+      "displayed_date": "6 months ago"
+    },
+    {
+      "id": "G02",
+      "name": "Chris Rice",
+      "role": "Revival attendee",
+      "quote": "I arrived feeling alone, but quickly discovered a community of men just like me.",
+      "rating": 5,
+      "url": "https://maps.app.goo.gl/EquGMLo1fD7CbnKe7",
+      "checked": "2026-09-10",
+      "context": "The review explicitly names Rise Up Kings Revival. The selected sentence concerns community and isolation.",
+      "displayed_date": "9 months ago"
+    },
+    {
+      "id": "G03",
+      "name": "Mark Hernandez",
+      "role": "Pastor",
+      "quote": "The amount of true biblical love, encouragement, and discipleship that I was sharpened with was life changing and empowering.",
+      "rating": 5,
+      "url": "https://maps.app.goo.gl/V4QcxFzMV3fCLi2D8",
+      "checked": "2026-09-10",
+      "context": "The reviewer identifies himself as a pastor. The selected sentence is in the opening account of Revival. A later addition discusses a separate Forge experience; that material is not used.",
+      "displayed_date": "Edited 2 weeks ago"
+    }
   ]
 }
