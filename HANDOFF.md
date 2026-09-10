@@ -61,7 +61,7 @@ E01 no longer assumes an application was completed. E04 uses the fuller verified
 
 ## Files and validation
 
-- `docs/index.html`, `docs/landing.css`, `docs/ministries*.css`, `docs/ministries.js`, `docs/funnel*.js`, `docs/application-preview.html`, `docs/images/`, `docs/fonts/`: deployable page bundle.
+- `docs/index.html`, `docs/landing.css`, `docs/ministries*.css`, `docs/ministries.js`, `docs/tracking.js`, `docs/funnel*.js`, `docs/application-preview.html`, `docs/images/`, `docs/fonts/`: deployable page bundle.
 - `docs/content/ministries.json`: source content and attribution.
 - `docs/content/campaign-frame.html` and `docs/content/ministries-sections.html`: accepted campaign opening and retained source layouts.
 - `source/ministries/`: original section snapshots and a record of limited changes.
@@ -71,3 +71,15 @@ E01 no longer assumes an application was completed. E04 uses the fuller verified
 - `tests/funnel.test.cjs`: validation, preview isolation, capture contract, error and timeout checks. Uses mocked requests; no real leads submitted.
 
 This revision is kept on `codex/revival-will-review` in Jay's approval repository. No Rise-Up-Kings repository has been modified and no client PR has been opened. Jay will choose the destination and open a single PR when ready. Client merges remain with RUK's team.
+
+## Google Tag Manager
+
+Container `GTM-WJW6VTZ` is installed on the landing page with the standard head script and body noscript fallback. It is the same ID found in the live KSP source. It is not installed on the approval hub or email previews.
+
+The data layer sets `funnel_name: revival` and `revival_environment: approval|production` before the container loads. Approval mode emits no `revival_optin_complete` event. Container-managed pageviews or automatic form events can still run; filter the approval hostname/environment in the GTM container so approval traffic does not count toward production results.
+
+After accepted live lead capture, the page emits exactly one `revival_optin_complete`, with `campaign: revival`, `funnel_name: revival`, and `revival_environment: production`. Name, email, phone, and the application URL are not included. Navigation waits for GTM’s callback, with an independent 1.5-second fallback so blocked tracking cannot strand a saved lead.
+
+The supplied container publicly returns HTTP 200. Its published script did not contain a literal `revival_optin_complete` at the time of this check. Container installation is complete; this does not prove a matching conversion trigger exists. RUK’s tracking owner must confirm the custom-event trigger and intended GA4/Ads/Meta mappings in GTM. No container settings were edited or published here. Do not treat a generic form submit, button click, or the application redirect as an application completion.
+
+Official references: https://support.google.com/tagmanager/answer/14847097 and https://developers.google.com/tag-platform/tag-manager/datalayer.

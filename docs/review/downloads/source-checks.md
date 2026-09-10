@@ -57,3 +57,7 @@ The five scripts are saved for later and have not been reviewed in detail by Wil
 On 10 September 2026 the re-templated sections were replaced with the actual HTML and CSS from rukministries.com: Our Approach, Why Rise Up Kings/four pillars, pastor stories, RUK Ministries/Rooted in the Word, and FAQ. Source backgrounds remain backgrounds, including the full training-room photograph behind the Our Approach glass card. Fonts and source image assets are included locally.
 
 The approved campaign hero, video and opening copy remain. Earlier exclusions of price/date details and unverified general claims remain. Google reviews use the source site’s dark review-card styling with the three previously checked Revival excerpts and individual links. Generic organisation-wide ratings are not imported.
+
+## GTM installation
+
+GTM-WJW6VTZ was supplied by Jay and also appears in the checked KSP source. The landing page now includes the standard container script and noscript fallback. The public container responded successfully on 10 September 2026. The page’s custom confirmed-lead event is revival_optin_complete; preview mode does not emit it. Container-side conversion mappings remain for RUK’s tracking owner to confirm. No GTM settings or client repository were changed.

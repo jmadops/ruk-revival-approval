@@ -44,10 +44,7 @@
     submit.textContent = 'Continuing…';
     try {
       const result = await window.RevivalFunnelCore.submitLead(config, input, { baseUrl: location.href, fetchImpl: window.fetch.bind(window) });
-      if (!result.preview) {
-        window.dataLayer = window.dataLayer || [];
-        window.dataLayer.push({ event: 'revival_optin_complete', campaign: 'revival' });
-      }
+      if (window.RevivalTracking) await window.RevivalTracking.confirmedOptIn(window, result);
       form.reset();
       window.location.assign(result.nextUrl);
     } catch (error) {

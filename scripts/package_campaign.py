@@ -50,13 +50,14 @@ with tempfile.TemporaryDirectory(prefix='revival-pack-') as td:
  (review/'downloads/scripts.md').write_text(script_md)
  (pack/'Scripts/READ-SCRIPTS.html').write_text(readable('Revival scripts · Saved for later','Five scripts for a future creative round. Not reviewed for launch.',script_cards))
  (pack/'Scripts/README.md').write_text('# Saved for later\n\nWill has not reviewed these scripts in detail. The copy is retained unchanged for a future creative round.\n')
- for f in ['index.html','landing.css','ministries.css','ministries-integration.css','ministries.js','funnel-config.js','funnel-core.js','funnel.js','application-preview.html']:
+ for f in ['index.html','landing.css','ministries.css','ministries-integration.css','ministries.js','tracking.js','funnel-config.js','funnel-core.js','funnel.js','application-preview.html']:
   shutil.copy2(docs/f,pack/'Landing Page'/f)
  for folder in ['images','fonts','content']:shutil.copytree(docs/folder,pack/'Landing Page'/folder)
  shutil.copy2(review/'downloads/primary-copy.md',pack/'PRIMARY-COPY.md')
  shutil.copy2(review/'downloads/source-checks.md',pack/'Review/SOURCE-CHECKS.md')
  shutil.copy2(review/'downloads/google-reviews.md',pack/'Review/GOOGLE-REVIEWS.md')
  shutil.copy2(repo/'HANDOFF.md',pack/'Review/TEAM-HANDOFF.md')
+ shutil.copy2(repo/'PR-PREPARATION.md',pack/'Review/PR-PREPARATION.md')
  (pack/'Review/FUNNEL-CHECK.md').write_text('# Opt-in-first flow\n\nLanding page → name/email/phone modal → application. The approval version is a preview only: no contact details are sent or saved. The application destination is https://go.riseupkings.com/rukminapplication. The preview opens that application without saving the sample details. The production capture endpoint and consent setup remain with RUK’s team.\n\nEmails run only while the application has not been submitted. See TEAM-HANDOFF.md for the integration contract and the four repositories checked.\n')
  (pack/'Review/QA.md').write_text('# Validation\n\nThe form checks name, email and phone. Automated tests cover preview isolation, accepted lead capture, invalid input, missing configuration, failed responses and timeouts. No real leads were submitted.\n\nOriginal ad image checksums are preserved. Active campaign copy has no pricing or event dates. The application destination is confirmed; production lead capture and email automation are not connected.\n')
  (pack/'README.md').write_text('# Revival campaign · Revised 10 September 2026\n\nApproval hub: https://jmadops.github.io/ruk-revival-approval/review/\n\nLanding page: https://jmadops.github.io/ruk-revival-approval/\n\n- Ads A01–A10: selected original concepts, no pricing.\n- Ads A11–A20: archived for reference.\n- Five revised opt-in emails: continue the application; not activated.\n- Three primary-copy options: accepted copy, paired with selected ads.\n- Five scripts: saved for later, not reviewed for launch.\n- Landing page: original Ministries section designs with the campaign opening. Opt-in preview opens the confirmed application; lead capture pending.\n\nSee Review/TEAM-HANDOFF.md for the client PR setup.\n')

@@ -21,9 +21,11 @@ Read [HANDOFF.md](HANDOFF.md) for the four client repositories checked, the form
 ## Updates
 
 - Landing page: edit `docs/content/campaign-frame.html`, `docs/content/ministries-sections.html`, `docs/content/ministries.json` and their CSS. Preserve the original source styles recorded in `source/ministries/`;; run `python3 scripts/build_landing.py`.
-- Form: `docs/funnel-config.js`, `docs/funnel-core.js`, `docs/funnel.js`. Run `node --test tests/funnel.test.cjs`.
+- Form: `docs/funnel-config.js`, `docs/funnel-core.js`, `docs/funnel.js`. Run `node --test tests/*.test.cjs`.
 - Emails and ad manifest: `docs/review/content/`. Primary copy: `docs/review/downloads/primary-copy.md`.
 - Hub: edit `scripts/build_review.py` and `docs/review/review.css`; run `python3 scripts/build_review.py`.
 - Pack: `python3 scripts/package_campaign.py`, optionally with `--output '/path/to/campaign folder'` to refresh a local handoff folder. The packaging script uses Pillow for reference contact sheets.
 
 The page uses native dialog, FAQ controls and standard JavaScript. It needs no framework build or frontend application server. Real lead collection requires the client team's server integration before enabling live mode. The approval page and emails are not a launched funnel or activated sequence.
+
+GTM `GTM-WJW6VTZ` and confirmed-opt-in tracking are prepared. See [PR-PREPARATION.md](PR-PREPARATION.md) for the proposed PR description and remaining client integration points. No PR has been opened.
