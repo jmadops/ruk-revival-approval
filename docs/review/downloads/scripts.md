@@ -1,14 +1,10 @@
-# Revival: five direct-response scripts
+# Revival scripts · Saved for later
 
-One complete script per angle. No pricing. Speaker: an authorised RUK Ministries representative.
+Not reviewed in detail by Will. Not part of current launch approval.
 
-# Who pastors you?
+## S01 · Who pastors you?
 
-**Format:** Direct to camera, RUK Ministries spokesperson.
-**Structure:** Expert Rant + Prescription, compressed.
-**Length:** Approximately 60 seconds; 147 spoken words.
-
-## Spoken script
+Saved for later. Approx. 59 seconds; 147 spoken words.
 
 You can finish the sermon and still avoid the conversation you need to have.
 
@@ -26,18 +22,11 @@ Start by telling us what's happening behind your public role. The application gi
 
 Click below and start your Revival application.
 
-**Production note:** One complete script with one selected hook. Use real RUK imagery only where it supports the point. Do not present the spokesperson as a participant giving personal testimony.
-
-
 ---
 
-# The man who comes home
+## S02 · The man who comes home
 
-**Format:** Direct to camera, RUK Ministries spokesperson.
-**Structure:** Stakes-First Warning, compressed.
-**Length:** Approximately 60 seconds; 151 spoken words.
-
-## Spoken script
+Saved for later. Approx. 60 seconds; 151 spoken words.
 
 Your wife supports your calling. She still needs her husband.
 
@@ -55,18 +44,11 @@ Our team can talk through the experience and what taking part would involve for 
 
 Click below and start your Revival application. Tell us what you want to address at home.
 
-**Production note:** One complete script with one selected hook. Use real RUK imagery only where it supports the point. Do not present the spokesperson as a participant giving personal testimony.
-
-
 ---
 
-# Faith beyond Sunday
+## S03 · Faith beyond Sunday
 
-**Format:** Direct to camera, RUK Ministries spokesperson.
-**Structure:** Symptom Misattribution + Root Cause, compressed.
-**Length:** Approximately 60 seconds; 149 spoken words.
-
-## Spoken script
+Saved for later. Approx. 60 seconds; 149 spoken words.
 
 When did time with God become another deadline for Sunday?
 
@@ -84,18 +66,11 @@ You already give serious attention to what you teach. Give serious attention to 
 
 Click below and start your Revival application. Tell our team what brought you here.
 
-**Production note:** One complete script with one selected hook. Use real RUK imagery only where it supports the point. Do not present the spokesperson as a participant giving personal testimony.
-
-
 ---
 
-# All through you
+## S04 · All through you
 
-**Format:** Direct to camera, RUK Ministries spokesperson.
-**Structure:** Symptom Misattribution + Root Cause, compressed.
-**Length:** Approximately 60 seconds; 149 spoken words.
-
-## Spoken script
+Saved for later. Approx. 60 seconds; 149 spoken words.
 
 If every decision needs you, three days away will feel impossible.
 
@@ -113,18 +88,11 @@ Bring the man carrying the ministry into the work, and talk with our team about 
 
 Click below and start your Revival application. Make room for the conversation you've kept postponing.
 
-**Production note:** One complete script with one selected hook. Use real RUK imagery only where it supports the point. Do not present the spokesperson as a participant giving personal testimony.
-
-
 ---
 
-# Your health belongs on the calendar
+## S05 · Your health belongs on the calendar
 
-**Format:** Direct to camera, RUK Ministries spokesperson.
-**Structure:** Expert Rant + Prescription, compressed.
-**Length:** Approximately 60 seconds; 150 spoken words.
-
-## Spoken script
+Saved for later. Approx. 60 seconds; 150 spoken words.
 
 Your calendar has room for the whole congregation. Where are you on it?
 
@@ -144,4 +112,5 @@ Come ready to look honestly at what you've been putting off. Our team can explai
 
 Click below and start your Revival application.
 
-**Production note:** One complete script with one selected hook. Use real RUK imagery only where it supports the point. Do not present the spokesperson as a participant giving personal testimony.
+---
+

@@ -1,47 +1,45 @@
-# Revival source and claim checks
+# Revival source and revision checks
 
-Checked 8 September 2026.
+Checked 10 September 2026.
 
-## What is supported
+## Landing page
 
-| Item | Evidence | Decision |
-| --- | --- | --- |
-| Three-day, in-person experience for male pastors and ministry leaders | User-supplied Revival brief; RUK Ministries homepage describes a three-day pastor intensive | Used throughout |
-| Christ-centered approach; Faith, Family, Fitness, Finances | Brief and the Ministries homepage's four pillars and FAQ | Used throughout |
-| Training, experiential work, brotherhood | Brief; Ministries homepage describes hands-on training and community | Used without promising a particular outcome |
-| Meals, materials, and gear | Brief; Ministries FAQ corroborates lunch, dinner, and gear | Retained in the page's inclusions |
-| Rob Satterfield attribution | Ministries homepage publishes his Revival account, identifies him as Sr Pastor, and names Oak Hill Baptist, TX | A short, exact excerpt is used in the page and email 4 |
-| Existing application | Live Ministries application returns successfully and contains a real Ontraport form | Embedded on the landing page, with a direct-link fallback |
-| Booking destination | The supplied scheduling URL displays RUK Ministries, a staff-pastor interview, and an actual booking widget | Used in emails for qualified applicants who have not booked |
+The hero video is the same Wistia media published on the RUK Ministries homepage: **The Rise Up Kings Revival**, media ID `5w5ll9rwvc`, approximately 85 seconds. It appears beside the headline on desktop and below the headline and subheading on mobile.
 
-Sources:
+Our Approach, the five Why Rise Up Kings topics, the four pillar icons, the pastor accounts, the ministry questions, the Christian foundation and the FAQ subject matter come from the Ministries website. The complete training-room image is displayed at its original proportions.
 
-- [RUK Ministries](https://rukministries.com/)
-- [Existing Ministries application](https://go.riseupkings.com/rukminapplication)
-- [Existing Ministries scheduling page](https://go.riseupkings.com/scheduleyourcall)
-- User-supplied RUK Ministries Revival Campaign Messaging Brief
+The hero and opening problem section preserve the campaign angle with Will's requested wording changes. FAQ wording omits price, dated logistics and guaranteed individual outcomes. General organisation-wide outcome counts, Google ratings, press logos and donation sections are not carried into the Revival campaign.
 
-## What was excluded
+## Pastor accounts
 
-- All pricing and referral-offer language from the active campaign files.
-- General RUK Google ratings and review totals. These are not a verified Revival-only measure.
-- Business-owner revenue results, marriage-result statistics, press logos, and sold-out claims from other funnels.
-- Specific event dates. The Ministries page contains inconsistent event-date sections, so the team confirms dates during the application process.
-- Guaranteed confidentiality, guaranteed results, and invented participant stories.
-- Specific physical activities or an invented three-day agenda.
+The page uses attributed accounts published by RUK Ministries:
 
-The pastor quotation is verified as a published statement on RUK's own site. This is source verification, not an independent investigation of his experience. It is not presented as a guarantee of another participant's result.
+- Sr Pastor Rob Satterfield, Oak Hill Baptist, TX. His account explicitly names RUK Revival. A contiguous excerpt ends before the final sentence about time and money; its wording is otherwise unchanged. E04 uses the same fuller excerpt.
+- Sr Pastor Jimmy Peters, Atlas Church, TX.
+- Sr Pastor Monte Coffman, Community Alliance Church, AZ.
 
-## Images
+The latter two are presented as pastor accounts published by Ministries, not independently identified Google reviews or proof of a specific Revival cohort. The quoted experiences are the speakers' own accounts, not guarantees for future participants.
 
-The page uses the RUK logo and photographs already published on the Ministries website. Its captions identify them as RUK source imagery without claiming they depict a particular Revival cohort.
+A web search did not produce an independently verifiable, more detailed Revival-specific Google review suitable to replace these accounts. The stronger existing Ministries quotation is used instead, as allowed in Will's feedback. No generic Google review is relabelled as Revival-specific.
 
-The new short-copy statics use typography only. They contain no participant photographs, testimonials, or review claims.
+## Opt-in flow
 
-The retained ad concepts include AI-edited prayer-room/training imagery and a conceptual family scene. They are creative illustrations, not untouched documentary photos or participant testimony. The original campaign images remain preserved separately.
+Current main branches in all four available Rise-Up-Kings repositories were checked: ruk-virtual-paid-events, Ignite, 2dayceo-web and Documentary-Page. The live KSP page supplied the selected name/email/phone modal pattern.
 
-## Copy methods
+The approval page uses preview mode. Details are not saved or sent. The team will connect a Revival-specific lead endpoint and application destination before launch. The existing KSP endpoint is not reused because it routes leads into KSP.
 
-The five scripts apply the Ad Script skill's direct-response structures and spoken-word checks. One complete script and one selected hook are provided per angle, following the request for one variation rather than the skill's default extra hook options.
+## Emails and ads
 
-The emails apply the RUK Email Copywriter skill's concrete hooks, readable spacing, useful body copy, and one next step. The campaign uses the RUK Ministries organisational voice. It does not invent first-person experiences for Skylar or another named speaker.
+The five emails now address opt-ins whose applications have not been submitted. E01 removes the completed-application assumption; E04 uses the fuller Rob Satterfield account. All five CTAs point toward the application, with `[APPLICATION_URL]` left for final setup. The sequence stops when an application is received. No emails are activated.
+
+A01–A10 are the selected original ads, with price removed. A11–A20 are archived for reference. Their artwork is preserved unchanged. Some original ads use AI-edited prayer/training imagery or an illustrative family scene; these are creative images, not untouched documentary photographs or participant testimony.
+
+The five scripts are saved for later and have not been reviewed in detail by Will. Pricing and event dates remain omitted from the active campaign.
+
+## Sources
+
+- [RUK Ministries homepage](https://rukministries.com/)
+- [Statement of faith](https://rukministries.com/faith-statement)
+- [Live KSP funnel](https://live.riseupkings.com/ksp)
+- [KSP modal source](https://github.com/Rise-Up-Kings/ruk-virtual-paid-events/blob/main/kingdom-scaling-principles-embedded-lp/index.html)
+- User-supplied Revival Campaign Messaging Brief and Will's review transcript

@@ -1,26 +1,29 @@
-# Revival approval landing page
+# Revival campaign approval
 
-Campaign approval hub: https://jmadops.github.io/ruk-revival-approval/review/
+Approval hub: https://jmadops.github.io/ruk-revival-approval/review/
 
-Prospect landing page: https://jmadops.github.io/ruk-revival-approval/
+Landing page: https://jmadops.github.io/ruk-revival-approval/
 
-A price-free RUK Ministries Revival landing page for approval. GitHub Pages serves the static files in `docs/` from `main`.
+Updated from Will's feedback on 10 September 2026. GitHub Pages serves `docs/` from `main`.
 
-- The landing page is public and shareable, with a noindex directive.
-- Every application CTA goes to the on-page application section.
-- The iframe uses the existing RUK Ministries application at https://go.riseupkings.com/rukminapplication and provides a separate-window fallback.
-- Applications are handled by RUK’s existing Ontraport form. GitHub does not store applicant data.
-- The quote is a verified excerpt from Sr Pastor Rob Satterfield’s Revival account on https://rukministries.com/.
-- No price, referral offer, star rating, review count, availability claim, or invented participant result is included.
+## Included
 
-## Updating the page
+- A revised price-free, date-free landing page with the existing Ministries video and source content.
+- A full-name/email/phone opt-in modal based on the live KSP funnel.
+- Preview mode: no lead collection or contact storage; the final endpoint and application link remain configurable.
+- Five emails for opt-ins who have not submitted an application.
+- Ten selected original ads, with ten earlier variations archived.
+- Three primary-copy options and five scripts saved for later.
+- Source notes, full client download pack and a client-team handoff.
 
-Edit the static `docs/index.html`, `docs/styles.css`, or assets and push to `main`. GitHub Pages republishes that folder. The page uses native anchor links and FAQ controls, so it needs no frontend build or application server.
+Read [HANDOFF.md](HANDOFF.md) for the four client repositories checked, the form contract, outstanding connection points and the client PR scope. No RUK client repository has been modified.
 
-The form is live. Reviewers should not submit sample contact details: doing so can start RUK’s existing follow-up process.
+## Updates
 
-## Campaign approval hub
+- Landing page: edit `scripts/build_landing.py`, `docs/content/ministries.json` and `docs/landing.css`; run `python3 scripts/build_landing.py`.
+- Form: `docs/funnel-config.js`, `docs/funnel-core.js`, `docs/funnel.js`. Run `node --test tests/funnel.test.cjs`.
+- Emails and ad manifest: `docs/review/content/`. Primary copy: `docs/review/downloads/primary-copy.md`.
+- Hub: edit `scripts/build_review.py` and `docs/review/review.css`; run `python3 scripts/build_review.py`.
+- Pack: `python3 scripts/package_campaign.py`, optionally with `--output '/path/to/campaign folder'` to refresh a local handoff folder. The packaging script uses Pillow for reference contact sheets.
 
-`docs/review/` contains the client-facing approval hub: 20 static ads, five emails, five video scripts, three primary-copy options, a landing-page preview, source notes and the full downloadable pack. Item IDs support specific feedback; this page does not store approvals or send emails.
-
-To update copy, edit the public JSON files in `docs/review/content/` or primary copy in `docs/review/downloads/primary-copy.md`, then run `python3 scripts/build_review.py`. Keep the downloadable pack in sync when changing deliverables.
+The page uses native dialog, FAQ controls and standard JavaScript. It needs no framework build or frontend application server. Real lead collection requires the client team's server integration before enabling live mode. The approval page and emails are not a launched funnel or activated sequence.

@@ -21,7 +21,7 @@ Read about Revival and start the application.
 **Headline:** Pastors: Who Pastors You?  
 **Description:** Three days for the man behind the ministry.  
 **Platform button:** Learn More  
-**Static matches:** 01, 04, 05, 06, 08, 10, 11, 14, 15, 16, 18, 19, 20.
+**Static matches:** 01, 04, 05, 06, 08, 10.
 
 ## P02 · What comes home?
 
@@ -40,7 +40,7 @@ See what Revival involves and apply.
 **Headline:** The Man Who Comes Home Matters  
 **Description:** Faith. Family. Fitness. Finances.  
 **Platform button:** Learn More  
-**Static matches:** 02, 07, 08, 12, 17.
+**Static matches:** 02, 07, 08.
 
 ## P03 · The faith behind the message
 
@@ -59,4 +59,4 @@ Read about Revival and start the application.
 **Headline:** Rebuild the Faith Behind the Message  
 **Description:** Revival. A three-day intensive for pastors.  
 **Platform button:** Learn More  
-**Static matches:** 03, 05, 09, 13, 19.
+**Static matches:** 03, 05, 09.

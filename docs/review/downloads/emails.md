@@ -1,24 +1,30 @@
-# Revival: five-email follow-up sequence
+# Revival opt-in emails for approval
 
-For qualified applicants who have not booked. One subject and one email per stage. No pricing.
+Audience: opted in; application not yet submitted.
 
-# Bring the real reason you applied
+Send: immediate, day 1, day 3, day 5 and day 7. Stop on application submission.
 
-**Send:** Immediately after qualification; qualified applicants who have not booked.
-**Subject:** Bring the real reason you applied
-**Preview:** Your coach conversation starts with what brought you to Revival and what you want to work on.
+Final application destination: `[APPLICATION_URL]`. These drafts are not activated.
+
+## E01 · Keep the reason you stopped
+
+**Send:** Immediately after opt-in
+
+**Subject:** Keep the reason you stopped
+
+**Preview:** Before another Sunday pushes it aside, name the part of your life that brought you to Revival.
 
 ---
 
 Hi [First Name],
 
-There was a reason you stopped and filled out that application.
+Something made you stop and take a closer look at Revival.
 
 Hold on to it... before another meeting, another call, and another Sunday push it back down the list.
 
-Your next step with Revival is a conversation with the RUK Ministries team.
+You’ve taken the first step by sharing your details. **Your application is the next step.**
 
-Before you book, finish this sentence for yourself:
+Before you continue, finish this sentence for yourself:
 
 *“The part of my life I keep putting off is...”*
 
@@ -28,19 +34,20 @@ It could be the distance at home, your own time with God, or the way you've let 
 
 Revival is a three-day, Christ-centered intensive for male pastors and ministry leaders, built around Faith, Family, Fitness, and Finances.
 
-Use the call to talk through the experience, ask your questions, and understand the next steps... with your own life in the conversation.
+Use the application to tell our team about your ministry and what you want to work on... even if you haven’t started filling it out yet.
 
-**Book your Revival conversation → https://go.riseupkings.com/scheduleyourcall**
+**Continue your Revival application → [APPLICATION_URL]**
 
 RUK Ministries
 
-
 ---
 
-# Who gets the honest answer?
+## E02 · Who gets the honest answer?
 
-**Send:** Day 1; qualified applicants who have not booked.
+**Send:** Day 1
+
 **Subject:** Who gets the honest answer?
+
 **Preview:** One practical question for the pastor who hears everyone else’s problems and carries his own.
 
 ---
@@ -63,19 +70,20 @@ You decide what to share and with whom. Start by being *honest with yourself* ab
 
 Revival brings male pastors and ministry leaders together for Christ-centered training, experiential work, and brotherhood.
 
-If this is the part of your life that brought you here... put it on the agenda for your conversation with our team.
+If this is the part of your life that brought you here... tell our team about it in your application.
 
-**Book your Revival conversation → https://go.riseupkings.com/scheduleyourcall**
+**Continue your Revival application → [APPLICATION_URL]**
 
 RUK Ministries
 
-
 ---
 
-# Put the responsibilities on paper
+## E03 · Put the responsibilities on paper
 
-**Send:** Day 3; qualified applicants who have not booked.
+**Send:** Day 3
+
 **Subject:** Put the responsibilities on paper
+
 **Preview:** A clearer way to think about time away, team coverage, and the work that keeps coming to you.
 
 ---
@@ -96,57 +104,60 @@ You may find work that needs preparation. You may find something only you can do
 
 That gives you a practical starting point for the conversation with your staff, family, or elders.
 
-Revival is a three-day experience. Before making arrangements, talk with our team about the schedule and participation requirements, then work through the coverage your ministry needs.
+Revival is a three-day experience. Use your application to explain your situation. Our team can then talk through the schedule and participation requirements before you make arrangements.
 
 *“I can't leave”* deserves a closer look... with the actual responsibilities in front of you.
 
-**Book your Revival conversation → https://go.riseupkings.com/scheduleyourcall**
+**Continue your Revival application → [APPLICATION_URL]**
 
 RUK Ministries
 
-
 ---
 
-# A pastor on what Revival meant to him
+## E04 · “Build a better relationship with your wife and kids”
 
-**Send:** Day 5; qualified applicants who have not booked.
-**Subject:** A pastor on what Revival meant to him
-**Preview:** A verified pastor’s perspective, plus the four areas at the heart of the Revival experience.
+**Send:** Day 5
+
+**Subject:** “Build a better relationship with your wife and kids”
+
+**Preview:** Pastor Rob Satterfield describes the community and personal work he found at RUK Revival.
 
 ---
 
 Hi [First Name],
 
-“I cannot tell you how much RUK Revival meant to me.”
+“I cannot tell you how much RUK Revival meant to me. If you are a pastor and you want to grow in goals, change things up, get past sin, get safe community, and build a better relationship with your wife and kids, RUK is for you. Buckle up and get ready. It's life changing.”
 
-That's how Sr Pastor Rob Satterfield of Oak Hill Baptist, TX, began his account of the experience.
+Sr Pastor Rob Satterfield, Oak Hill Baptist, TX
 
-His words are a pastor's personal perspective... and your decision deserves attention to your own circumstances.
+Notice what Rob chose to talk about... his goals, the things he needed to face, community, and his relationship with his wife and kids.
 
-Revival's work centers on four areas:
+**The life behind the title.**
 
-- **Faith:** your personal walk with Christ.
-- **Family:** the relationships that come home with you.
-- **Fitness:** your physical habits and health.
-- **Finances:** your personal stewardship and responsibilities.
+Those things can be difficult to put on the agenda when everyone else needs something from you.
 
-Look at those four areas and pick the one you've been leaving until later.
+But they’re still there when the service is over... and they deserve an honest answer.
 
-Now get specific... what keeps happening, and what would you want to address?
+Pick one thing from Rob’s account that you want to address in your own life.
 
-That answer will give your conversation with our team a useful starting point. You can ask how the three-day experience works and what participation involves... before deciding whether to attend.
+Get specific. What keeps happening? What have you been putting off?
 
-**Book your Revival conversation → https://go.riseupkings.com/scheduleyourcall**
+Revival brings Faith, Family, Fitness, and Finances into three days of Christ-centered training, experiential work, and brotherhood.
+
+Rob’s account is his own. **Your application starts with your circumstances**... and what you want our team to understand before the next conversation.
+
+**Continue your Revival application → [APPLICATION_URL]**
 
 RUK Ministries
 
-
 ---
 
-# Give your team a clear reason
+## E05 · Give your team a clear reason
 
-**Send:** Day 7; qualified applicants who have not booked.
+**Send:** Day 7
+
 **Subject:** Give your team a clear reason
+
 **Preview:** How to explain the purpose of attending Revival and the coverage your ministry would need.
 
 ---
@@ -167,8 +178,8 @@ Your team can work with a clear explanation... far more easily than a vague requ
 
 Our team can explain the program and help you get the information needed for that conversation.
 
-You took the time to apply because something deserved attention. Bring that reason back into view... and take the next step.
+You asked about Revival because something deserved attention. Bring that reason back into view... and take the next step.
 
-**Book your Revival conversation → https://go.riseupkings.com/scheduleyourcall**
+**Continue your Revival application → [APPLICATION_URL]**
 
 RUK Ministries
