@@ -4,7 +4,7 @@
 window.REVIVAL_FUNNEL = Object.freeze({
   mode: 'preview',
   captureEndpoint: '',
-  applicationUrl: '',
+  applicationUrl: 'https://go.riseupkings.com/rukminapplication',
   previewUrl: 'application-preview.html',
   source: 'revival-landing',
   timeoutMs: 12000

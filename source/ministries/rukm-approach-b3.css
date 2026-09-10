@@ -1,0 +1,169 @@
+
+  .rukm-approach-b3 * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  .rukm-approach-b3 {
+    width: 100%;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+  }
+
+  .rukm-approach-b3__bg {
+    position: absolute;
+    inset: 0;
+    background: url('https://assets.cdn.filesafe.space/bu8wN5yl1ERjTNqwER70/media/69cc3b35dbd0b538d485bb44.png') center center / cover no-repeat;
+  }
+
+  .rukm-approach-b3__bg::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .rukm-approach-b3__container {
+    position: relative;
+    z-index: 2;
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 80px 24px;
+    text-align: center;
+  }
+
+  /* ── Label ── */
+  .rukm-approach-b3__label {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #f5d98a;
+    background: rgba(0, 0, 0, 0.6);
+    border-left: 3px solid #c9a44a;
+    padding: 10px 24px;
+    margin-bottom: 28px;
+    box-shadow: 0 0 20px rgba(201, 164, 74, 0.15);
+  }
+
+  .rukm-approach-b3__label-icon {
+    width: 18px;
+    height: 18px;
+    fill: #c9a44a;
+  }
+
+  /* ── Title (outside card) ── */
+  .rukm-approach-b3__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #ffffff;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+
+  .rukm-approach-b3__gold { color: #c9a44a; }
+
+  /* ── Glass Card (desc + scripture) ── */
+  .rukm-approach-b3__glass {
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-top: 3px solid #c9a44a;
+    border-bottom: 3px solid #c9a44a;
+    padding: 40px 44px;
+    margin-bottom: 36px;
+  }
+
+  /* ── Description ── */
+  .rukm-approach-b3__desc {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #e0e0e0;
+    margin-bottom: 32px;
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* ── Scripture ── */
+  .rukm-approach-b3__quote-wrap {
+    border-top: 1px solid rgba(201, 164, 74, 0.2);
+    padding-top: 24px;
+  }
+
+  .rukm-approach-b3__quote {
+    font-size: 17px;
+    font-style: italic;
+    line-height: 1.7;
+    color: #f5d98a;
+    margin-bottom: 10px;
+  }
+
+  .rukm-approach-b3__verse {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #c9a44a;
+    letter-spacing: 1.5px;
+  }
+
+  /* ── CTA (outside card) ── */
+  .rukm-approach-b3__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #ffffff;
+    background: #b22222;
+    padding: 16px 40px;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .rukm-approach-b3__cta svg {
+    width: 16px;
+    height: 16px;
+    fill: #ffffff;
+    transition: transform 0.3s ease;
+  }
+
+  .rukm-approach-b3__cta:hover {
+    background: #d42b2b;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(178, 34, 34, 0.35);
+  }
+
+  .rukm-approach-b3__cta:hover svg { transform: translateX(3px); }
+
+  /* ── Mobile ── */
+  @media (max-width: 768px) {
+    .rukm-approach-b3__container { padding: 44px 16px; }
+
+    .rukm-approach-b3__label {
+      font-size: 11px;
+      letter-spacing: 3px;
+      padding: 8px 18px;
+      margin-bottom: 20px;
+    }
+
+    .rukm-approach-b3__label-icon { width: 15px; height: 15px; }
+
+    .rukm-approach-b3__title { font-size: 28px; margin-bottom: 20px; }
+    .rukm-approach-b3__glass { padding: 28px 20px; margin-bottom: 28px; }
+    .rukm-approach-b3__desc { font-size: 14px; line-height: 1.7; margin-bottom: 24px; }
+
+    .rukm-approach-b3__quote-wrap { padding-top: 18px; }
+    .rukm-approach-b3__quote { font-size: 15px; }
+    .rukm-approach-b3__verse { font-size: 13px; }
+
+    .rukm-approach-b3__cta { font-size: 12px; padding: 12px 28px; }
+  }

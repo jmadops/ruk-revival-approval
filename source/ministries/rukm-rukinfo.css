@@ -1,0 +1,337 @@
+
+  .rukm-rukinfo {
+    width: 100%;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    position: relative;
+    padding: 64px 40px;
+    background: url('https://assets.cdn.filesafe.space/bu8wN5yl1ERjTNqwER70/media/69cc44425472d4c3cfadf92f.jpg') center center / cover no-repeat;
+    overflow: hidden;
+  }
+
+  /* Dark overlay */
+  .rukm-rukinfo::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(15, 12, 5, 0.75);
+    z-index: 1;
+  }
+
+  .rukm-rukinfo__container {
+    position: relative;
+    z-index: 2;
+    max-width: 820px;
+    margin: 0 auto;
+  }
+
+  /* Frosted glass card */
+  .rukm-rukinfo__card {
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(201, 164, 74, 0.25);
+    border-radius: 4px;
+    padding: 40px 48px 36px;
+    position: relative;
+  }
+
+  /* Gold corner accents */
+  .rukm-rukinfo__card::before,
+  .rukm-rukinfo__card::after {
+    content: '';
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    border-color: #c9a44a;
+    border-style: solid;
+    transition: all 0.4s ease;
+  }
+
+  .rukm-rukinfo__card::before {
+    top: -1px;
+    left: -1px;
+    border-width: 2px 0 0 2px;
+    border-radius: 4px 0 0 0;
+  }
+
+  .rukm-rukinfo__card::after {
+    bottom: -1px;
+    right: -1px;
+    border-width: 0 2px 2px 0;
+    border-radius: 0 0 4px 0;
+  }
+
+  .rukm-rukinfo__card:hover::before,
+  .rukm-rukinfo__card:hover::after {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Title */
+  .rukm-rukinfo__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  /* Subtitle (501c3) */
+  .rukm-rukinfo__subtitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #c9a44a;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+  }
+
+  /* Divider */
+  .rukm-rukinfo__divider {
+    width: 50px;
+    height: 2px;
+    background: linear-gradient(90deg, #c9a44a, #f5d98a);
+    border: none;
+    margin: 0 auto 24px;
+  }
+
+  /* Description */
+  .rukm-rukinfo__desc {
+    color: #d4d4d4;
+    font-size: 15px;
+    line-height: 1.8;
+    text-align: center;
+    max-width: 680px;
+    margin: 0 auto 28px;
+  }
+
+  /* Checklist */
+  .rukm-rukinfo__list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .rukm-rukinfo__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 10px 18px;
+    background: rgba(255, 255, 255, 0.04);
+    border-left: 3px solid transparent;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+
+  .rukm-rukinfo__item:hover {
+    background: rgba(201, 164, 74, 0.08);
+    border-left-color: #c9a44a;
+    transform: translateX(4px);
+  }
+
+  /* Gold check icon */
+  .rukm-rukinfo__check {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    margin-top: 1px;
+  }
+
+  .rukm-rukinfo__check svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  .rukm-rukinfo__question {
+    color: #e8e8e8;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.55;
+  }
+
+  /* CTA */
+  .rukm-rukinfo__cta-wrap {
+    text-align: center;
+  }
+
+  .rukm-rukinfo__cta {
+    display: inline-block;
+    background-color: #b22222;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 48px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .rukm-rukinfo__cta:hover {
+    background-color: #d42b2b;
+    box-shadow: 0 0 24px rgba(212, 43, 43, 0.45), 0 0 60px rgba(212, 43, 43, 0.15);
+  }
+
+  /* ── Rooted Section ── */
+  .rukm-rukinfo__rooted-divider {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(201, 164, 74, 0.4), transparent);
+    border: none;
+    margin: 36px 0 32px;
+  }
+
+  .rukm-rukinfo__rooted-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    font-style: italic;
+    line-height: 1.25;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .rukm-rukinfo__rooted-gold {
+    color: #c9a44a;
+  }
+
+  .rukm-rukinfo__rooted-text {
+    color: #c8c8c8;
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto 16px;
+  }
+
+  .rukm-rukinfo__rooted-text:last-of-type {
+    margin-bottom: 28px;
+  }
+
+  .rukm-rukinfo__rooted-cta-wrap {
+    text-align: center;
+  }
+
+  .rukm-rukinfo__rooted-cta {
+    display: inline-block;
+    background-color: #b8912e;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 14px 40px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .rukm-rukinfo__rooted-cta:hover {
+    background-color: #a07c26;
+    box-shadow: 0 0 20px rgba(184, 145, 46, 0.35);
+  }
+
+  /* ===== MOBILE ===== */
+  @media (max-width: 768px) {
+    .rukm-rukinfo {
+      padding: 44px 16px;
+    }
+
+    .rukm-rukinfo__card {
+      padding: 28px 20px 24px;
+    }
+
+    .rukm-rukinfo__card::before,
+    .rukm-rukinfo__card::after {
+      width: 20px;
+      height: 20px;
+    }
+
+    .rukm-rukinfo__title {
+      font-size: 28px;
+      letter-spacing: 2px;
+    }
+
+    .rukm-rukinfo__subtitle {
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+
+    .rukm-rukinfo__divider {
+      margin-bottom: 24px;
+    }
+
+    .rukm-rukinfo__desc {
+      font-size: 13px;
+      line-height: 1.7;
+      margin-bottom: 28px;
+    }
+
+    .rukm-rukinfo__list {
+      gap: 10px;
+      margin-bottom: 32px;
+    }
+
+    .rukm-rukinfo__item {
+      padding: 12px 14px;
+      gap: 10px;
+    }
+
+    .rukm-rukinfo__check {
+      width: 18px;
+      height: 18px;
+    }
+
+    .rukm-rukinfo__check svg {
+      width: 18px;
+      height: 18px;
+    }
+
+    .rukm-rukinfo__question {
+      font-size: 13px;
+    }
+
+    .rukm-rukinfo__cta {
+      font-size: 14px;
+      padding: 15px 36px;
+      letter-spacing: 2px;
+    }
+
+    .rukm-rukinfo__rooted-divider {
+      margin: 28px 0 24px;
+    }
+
+    .rukm-rukinfo__rooted-title {
+      font-size: 22px;
+      margin-bottom: 18px;
+    }
+
+    .rukm-rukinfo__rooted-text {
+      font-size: 13px;
+      line-height: 1.7;
+      margin-bottom: 14px;
+    }
+
+    .rukm-rukinfo__rooted-text:last-of-type {
+      margin-bottom: 24px;
+    }
+
+    .rukm-rukinfo__rooted-cta {
+      font-size: 13px;
+      padding: 13px 32px;
+      letter-spacing: 2px;
+    }
+  }

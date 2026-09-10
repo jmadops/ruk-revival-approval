@@ -34,11 +34,11 @@ See GOOGLE-REVIEWS.md in the download pack for the excerpt and provenance record
 
 Current main branches in all four available Rise-Up-Kings repositories were checked: ruk-virtual-paid-events, Ignite, 2dayceo-web and Documentary-Page. The live KSP page supplied the selected name/email/phone modal pattern.
 
-The approval page uses preview mode. Details are not saved or sent. The team will connect a Revival-specific lead endpoint and application destination before launch. The existing KSP endpoint is not reused because it routes leads into KSP.
+The approval page uses preview mode. Details are not saved or sent. The application URL is confirmed as https://go.riseupkings.com/rukminapplication and is configured. The preview opens it after validating sample details, without saving them. The team will connect a Revival-specific lead endpoint before launch. The existing KSP endpoint is not reused because it routes leads into KSP.
 
 ## Emails and ads
 
-The five emails now address opt-ins whose applications have not been submitted. E01 removes the completed-application assumption; E04 uses the fuller Rob Satterfield account. All five CTAs point toward the application, with `[APPLICATION_URL]` left for final setup. The sequence stops when an application is received. No emails are activated.
+The five emails now address opt-ins whose applications have not been submitted. E01 removes the completed-application assumption; E04 uses the fuller Rob Satterfield account. All five CTAs point toward the application, using the confirmed https://go.riseupkings.com/rukminapplication URL. The sequence stops when an application is received. No emails are activated.
 
 A01–A10 are the selected original ads, with price removed. A11–A20 are archived for reference. Their artwork is preserved unchanged. Some original ads use AI-edited prayer/training imagery or an illustrative family scene; these are creative images, not untouched documentary photographs or participant testimony.
 
@@ -51,3 +51,9 @@ The five scripts are saved for later and have not been reviewed in detail by Wil
 - [Live KSP funnel](https://live.riseupkings.com/ksp)
 - [KSP modal source](https://github.com/Rise-Up-Kings/ruk-virtual-paid-events/blob/main/kingdom-scaling-principles-embedded-lp/index.html)
 - User-supplied Revival Campaign Messaging Brief and Will's review transcript
+
+## Original section design revision
+
+On 10 September 2026 the re-templated sections were replaced with the actual HTML and CSS from rukministries.com: Our Approach, Why Rise Up Kings/four pillars, pastor stories, RUK Ministries/Rooted in the Word, and FAQ. Source backgrounds remain backgrounds, including the full training-room photograph behind the Our Approach glass card. Fonts and source image assets are included locally.
+
+The approved campaign hero, video and opening copy remain. Earlier exclusions of price/date details and unverified general claims remain. Google reviews use the source site’s dark review-card styling with the three previously checked Revival excerpts and individual links. Generic organisation-wide ratings are not imported.

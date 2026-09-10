@@ -33,7 +33,7 @@
     const { baseUrl, fetchImpl } = deps;
     if (config.mode === 'preview') {
       // No requests, storage, contact data in the URL, or real conversion events.
-      return { preview: true, nextUrl: resolveUrl(config.previewUrl, baseUrl).href };
+      return { preview: true, nextUrl: resolveUrl(config.applicationUrl || config.previewUrl, baseUrl).href };
     }
     if (config.mode !== 'live') throw new Error('The application flow is not connected yet. Please try again later.');
     const endpoint = resolveUrl(config.captureEndpoint, baseUrl);

@@ -7,7 +7,7 @@ parser=argparse.ArgumentParser();parser.add_argument('--output',type=Path);args=
 emails=json.loads((review/'content/emails.json').read_text())
 scripts=json.loads((review/'content/scripts.json').read_text())
 manifest=json.loads((review/'content/ads.json').read_text())
-intro='# Revival opt-in emails for approval\n\nAudience: opted in; application not yet submitted.\n\nSend: immediate, day 1, day 3, day 5 and day 7. Stop on application submission.\n\nFinal application destination: `[APPLICATION_URL]`. These drafts are not activated.\n\n'
+intro='# Revival opt-in emails for approval\n\nAudience: opted in; application not yet submitted.\n\nSend: immediate, day 1, day 3, day 5 and day 7. Stop on application submission.\n\nConfirmed application destination: https://go.riseupkings.com/rukminapplication. These drafts are not activated.\n\n'
 def email_md(i,e):return f"## E{i:02} · {e['subject']}\n\n**Send:** {e['timing']}\n\n**Subject:** {e['subject']}\n\n**Preview:** {e['preview']}\n\n---\n\n{e['body']}\n"
 combined=intro+'\n---\n\n'.join(email_md(i,e) for i,e in enumerate(emails,1))
 (review/'downloads/emails.md').write_text(combined)
@@ -36,10 +36,10 @@ with tempfile.TemporaryDirectory(prefix='revival-pack-') as td:
  email_cards=[]
  for i,e in enumerate(emails,1):
   (pack/'Emails'/f"{e['id']}.md").write_text(email_md(i,e))
-  body=prose(e['body']).replace('<a class="email-cta" href="../application-preview.html" target="_blank" rel="noopener">Continue your Revival application →</a>','<strong>Continue your Revival application → [APPLICATION_URL]</strong>')
+  body=prose(e['body'])
   email_cards.append('<article><small>'+html.escape(e['timing'])+'</small><h2>E%02d · '%i+html.escape(e['subject'])+'</h2><p><strong>Preview text:</strong> '+html.escape(e['preview'])+'</p>'+body+'</article>')
  (pack/'Emails/ALL-FIVE-EMAILS.md').write_text(combined)
- (pack/'Emails/READ-EMAILS.html').write_text(readable('Revival opt-in emails','For opt-ins who have not submitted an application. Final links pending. Not activated.',email_cards))
+ (pack/'Emails/READ-EMAILS.html').write_text(readable('Revival opt-in emails','For opt-ins who have not submitted an application. Application link confirmed. Not activated.',email_cards))
  script_md='# Revival scripts · Saved for later\n\nNot reviewed in detail by Will. Not part of current launch approval.\n\n'
  script_cards=[]
  for i,s in enumerate(scripts,1):
@@ -50,16 +50,16 @@ with tempfile.TemporaryDirectory(prefix='revival-pack-') as td:
  (review/'downloads/scripts.md').write_text(script_md)
  (pack/'Scripts/READ-SCRIPTS.html').write_text(readable('Revival scripts · Saved for later','Five scripts for a future creative round. Not reviewed for launch.',script_cards))
  (pack/'Scripts/README.md').write_text('# Saved for later\n\nWill has not reviewed these scripts in detail. The copy is retained unchanged for a future creative round.\n')
- for f in ['index.html','landing.css','funnel-config.js','funnel-core.js','funnel.js','application-preview.html']:
+ for f in ['index.html','landing.css','ministries.css','ministries-integration.css','ministries.js','funnel-config.js','funnel-core.js','funnel.js','application-preview.html']:
   shutil.copy2(docs/f,pack/'Landing Page'/f)
  for folder in ['images','fonts','content']:shutil.copytree(docs/folder,pack/'Landing Page'/folder)
  shutil.copy2(review/'downloads/primary-copy.md',pack/'PRIMARY-COPY.md')
  shutil.copy2(review/'downloads/source-checks.md',pack/'Review/SOURCE-CHECKS.md')
  shutil.copy2(review/'downloads/google-reviews.md',pack/'Review/GOOGLE-REVIEWS.md')
  shutil.copy2(repo/'HANDOFF.md',pack/'Review/TEAM-HANDOFF.md')
- (pack/'Review/FUNNEL-CHECK.md').write_text('# Opt-in-first flow\n\nLanding page → name/email/phone modal → application. The approval version is a preview only: no contact details are sent or saved. Final endpoint, application URL and consent/link setup remain with RUK’s team.\n\nEmails run only while the application has not been submitted. See TEAM-HANDOFF.md for the integration contract and the four repositories checked.\n')
- (pack/'Review/QA.md').write_text('# Validation\n\nThe form checks name, email and phone. Automated tests cover preview isolation, accepted lead capture, invalid input, missing configuration, failed responses and timeouts. No real leads were submitted.\n\nOriginal ad image checksums are preserved. Active campaign copy has no pricing or event dates. Final destinations and email automation are not connected.\n')
- (pack/'README.md').write_text('# Revival campaign · Revised 10 September 2026\n\nApproval hub: https://jmadops.github.io/ruk-revival-approval/review/\n\nLanding page: https://jmadops.github.io/ruk-revival-approval/\n\n- Ads A01–A10: selected original concepts, no pricing.\n- Ads A11–A20: archived for reference.\n- Five revised opt-in emails: continue the application; not activated.\n- Three primary-copy options: accepted copy, paired with selected ads.\n- Five scripts: saved for later, not reviewed for launch.\n- Landing page: opt-in-first approval preview. Final destinations pending.\n\nSee Review/TEAM-HANDOFF.md for the client PR setup.\n')
+ (pack/'Review/FUNNEL-CHECK.md').write_text('# Opt-in-first flow\n\nLanding page → name/email/phone modal → application. The approval version is a preview only: no contact details are sent or saved. The application destination is https://go.riseupkings.com/rukminapplication. The preview opens that application without saving the sample details. The production capture endpoint and consent setup remain with RUK’s team.\n\nEmails run only while the application has not been submitted. See TEAM-HANDOFF.md for the integration contract and the four repositories checked.\n')
+ (pack/'Review/QA.md').write_text('# Validation\n\nThe form checks name, email and phone. Automated tests cover preview isolation, accepted lead capture, invalid input, missing configuration, failed responses and timeouts. No real leads were submitted.\n\nOriginal ad image checksums are preserved. Active campaign copy has no pricing or event dates. The application destination is confirmed; production lead capture and email automation are not connected.\n')
+ (pack/'README.md').write_text('# Revival campaign · Revised 10 September 2026\n\nApproval hub: https://jmadops.github.io/ruk-revival-approval/review/\n\nLanding page: https://jmadops.github.io/ruk-revival-approval/\n\n- Ads A01–A10: selected original concepts, no pricing.\n- Ads A11–A20: archived for reference.\n- Five revised opt-in emails: continue the application; not activated.\n- Three primary-copy options: accepted copy, paired with selected ads.\n- Five scripts: saved for later, not reviewed for launch.\n- Landing page: original Ministries section designs with the campaign opening. Opt-in preview opens the confirmed application; lead capture pending.\n\nSee Review/TEAM-HANDOFF.md for the client PR setup.\n')
  with zipfile.ZipFile(review/'downloads/revival-campaign.zip','w',zipfile.ZIP_DEFLATED) as z:
   for f in sorted(pack.rglob('*')):
    if f.is_file():z.write(f,str(f.relative_to(pack.parent)))

@@ -4,7 +4,7 @@ Audience: opted in; application not yet submitted.
 
 Send: immediate, day 1, day 3, day 5 and day 7. Stop on application submission.
 
-Final application destination: `[APPLICATION_URL]`. These drafts are not activated.
+Confirmed application destination: https://go.riseupkings.com/rukminapplication. These drafts are not activated.
 
 ## E01 · Keep the reason you stopped
 
@@ -36,7 +36,7 @@ Revival is a three-day, Christ-centered intensive for male pastors and ministry 
 
 Use the application to tell our team about your ministry and what you want to work on... even if you haven’t started filling it out yet.
 
-**Continue your Revival application → [APPLICATION_URL]**
+**Continue your Revival application → https://go.riseupkings.com/rukminapplication**
 
 RUK Ministries
 
@@ -72,7 +72,7 @@ Revival brings male pastors and ministry leaders together for Christ-centered tr
 
 If this is the part of your life that brought you here... tell our team about it in your application.
 
-**Continue your Revival application → [APPLICATION_URL]**
+**Continue your Revival application → https://go.riseupkings.com/rukminapplication**
 
 RUK Ministries
 
@@ -108,7 +108,7 @@ Revival is a three-day experience. Use your application to explain your situatio
 
 *“I can't leave”* deserves a closer look... with the actual responsibilities in front of you.
 
-**Continue your Revival application → [APPLICATION_URL]**
+**Continue your Revival application → https://go.riseupkings.com/rukminapplication**
 
 RUK Ministries
 
@@ -146,7 +146,7 @@ Revival brings Faith, Family, Fitness, and Finances into three days of Christ-ce
 
 Rob’s account is his own. **Your application starts with your circumstances**... and what you want our team to understand before the next conversation.
 
-**Continue your Revival application → [APPLICATION_URL]**
+**Continue your Revival application → https://go.riseupkings.com/rukminapplication**
 
 RUK Ministries
 
@@ -180,6 +180,6 @@ Our team can explain the program and help you get the information needed for tha
 
 You asked about Revival because something deserved attention. Bring that reason back into view... and take the next step.
 
-**Continue your Revival application → [APPLICATION_URL]**
+**Continue your Revival application → https://go.riseupkings.com/rukminapplication**
 
 RUK Ministries

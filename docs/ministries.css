@@ -1,0 +1,1367 @@
+/* Original rukministries.com section styles, retrieved 10 September 2026. Only asset URLs localized. */
+
+  .rukm-approach-b3 * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  .rukm-approach-b3 {
+    width: 100%;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+  }
+
+  .rukm-approach-b3__bg {
+    position: absolute;
+    inset: 0;
+    background: url('images/revival-training-full.png') center center / cover no-repeat;
+  }
+
+  .rukm-approach-b3__bg::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .rukm-approach-b3__container {
+    position: relative;
+    z-index: 2;
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 80px 24px;
+    text-align: center;
+  }
+
+  /* ── Label ── */
+  .rukm-approach-b3__label {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #f5d98a;
+    background: rgba(0, 0, 0, 0.6);
+    border-left: 3px solid #c9a44a;
+    padding: 10px 24px;
+    margin-bottom: 28px;
+    box-shadow: 0 0 20px rgba(201, 164, 74, 0.15);
+  }
+
+  .rukm-approach-b3__label-icon {
+    width: 18px;
+    height: 18px;
+    fill: #c9a44a;
+  }
+
+  /* ── Title (outside card) ── */
+  .rukm-approach-b3__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #ffffff;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+
+  .rukm-approach-b3__gold { color: #c9a44a; }
+
+  /* ── Glass Card (desc + scripture) ── */
+  .rukm-approach-b3__glass {
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-top: 3px solid #c9a44a;
+    border-bottom: 3px solid #c9a44a;
+    padding: 40px 44px;
+    margin-bottom: 36px;
+  }
+
+  /* ── Description ── */
+  .rukm-approach-b3__desc {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #e0e0e0;
+    margin-bottom: 32px;
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* ── Scripture ── */
+  .rukm-approach-b3__quote-wrap {
+    border-top: 1px solid rgba(201, 164, 74, 0.2);
+    padding-top: 24px;
+  }
+
+  .rukm-approach-b3__quote {
+    font-size: 17px;
+    font-style: italic;
+    line-height: 1.7;
+    color: #f5d98a;
+    margin-bottom: 10px;
+  }
+
+  .rukm-approach-b3__verse {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #c9a44a;
+    letter-spacing: 1.5px;
+  }
+
+  /* ── CTA (outside card) ── */
+  .rukm-approach-b3__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #ffffff;
+    background: #b22222;
+    padding: 16px 40px;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .rukm-approach-b3__cta svg {
+    width: 16px;
+    height: 16px;
+    fill: #ffffff;
+    transition: transform 0.3s ease;
+  }
+
+  .rukm-approach-b3__cta:hover {
+    background: #d42b2b;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(178, 34, 34, 0.35);
+  }
+
+  .rukm-approach-b3__cta:hover svg { transform: translateX(3px); }
+
+  /* ── Mobile ── */
+  @media (max-width: 768px) {
+    .rukm-approach-b3__container { padding: 44px 16px; }
+
+    .rukm-approach-b3__label {
+      font-size: 11px;
+      letter-spacing: 3px;
+      padding: 8px 18px;
+      margin-bottom: 20px;
+    }
+
+    .rukm-approach-b3__label-icon { width: 15px; height: 15px; }
+
+    .rukm-approach-b3__title { font-size: 28px; margin-bottom: 20px; }
+    .rukm-approach-b3__glass { padding: 28px 20px; margin-bottom: 28px; }
+    .rukm-approach-b3__desc { font-size: 14px; line-height: 1.7; margin-bottom: 24px; }
+
+    .rukm-approach-b3__quote-wrap { padding-top: 18px; }
+    .rukm-approach-b3__quote { font-size: 15px; }
+    .rukm-approach-b3__verse { font-size: 13px; }
+
+    .rukm-approach-b3__cta { font-size: 12px; padding: 12px 28px; }
+  }
+
+
+  .rukm-empower-b * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  .rukm-empower-b {
+    width: 100%;
+    background: #111111;
+    font-family: 'Inter', sans-serif;
+    padding: 0 24px 0;
+    position: relative;
+  }
+
+  /* ── Gold transition strip from approach section ── */
+  .rukm-empower-b__transition {
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, transparent 5%, #c9a44a 30%, #f5d98a 50%, #c9a44a 70%, transparent 95%);
+    margin-bottom: 64px;
+  }
+
+  /* ── Option B: Gold line + shadow divider ── */
+  .rukm-empower-b__bottom-divider {
+    width: 100%;
+    height: 3px;
+    position: relative;
+    background: linear-gradient(90deg, transparent 5%, #c9a44a 30%, #f5d98a 50%, #c9a44a 70%, transparent 95%);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .rukm-empower-b__container {
+    max-width: 820px;
+    margin: 0 auto;
+  }
+
+  /* ── Header ── */
+  .rukm-empower-b__header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .rukm-empower-b__label {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #f5d98a;
+    background: rgba(201, 164, 74, 0.08);
+    border-left: 3px solid #c9a44a;
+    padding: 10px 24px;
+    margin-bottom: 24px;
+  }
+
+  .rukm-empower-b__label svg {
+    width: 18px;
+    height: 18px;
+    fill: #c9a44a;
+  }
+
+  .rukm-empower-b__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+  }
+
+  .rukm-empower-b__gold { color: #c9a44a; }
+
+  .rukm-empower-b__subtitle {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #999999;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* ── Accordion Rows ── */
+  .rukm-empower-b__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rukm-empower-b__row {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 26px 16px;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .rukm-empower-b__row:first-child {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .rukm-empower-b__row:hover {
+    background: rgba(201, 164, 74, 0.04);
+  }
+
+  .rukm-empower-b__row-num {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #c9a44a;
+    letter-spacing: 1px;
+    flex-shrink: 0;
+    width: 28px;
+    padding-top: 2px;
+  }
+
+  .rukm-empower-b__row-accent {
+    width: 3px;
+    height: 24px;
+    background: #c9a44a;
+    flex-shrink: 0;
+    margin-top: 2px;
+    transition: height 0.3s ease;
+  }
+
+  .rukm-empower-b__row.active .rukm-empower-b__row-accent {
+    height: 100%;
+  }
+
+  .rukm-empower-b__row-content { flex: 1; }
+
+  .rukm-empower-b__row-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 0;
+    transition: color 0.3s ease;
+  }
+
+  .rukm-empower-b__row:hover .rukm-empower-b__row-title,
+  .rukm-empower-b__row.active .rukm-empower-b__row-title {
+    color: #f5d98a;
+  }
+
+  .rukm-empower-b__row-desc {
+    font-size: 14px;
+    line-height: 1.75;
+    color: #aaaaaa;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, margin-top 0.3s ease, opacity 0.3s ease;
+    margin-top: 0;
+    opacity: 0;
+  }
+
+  .rukm-empower-b__row.active .rukm-empower-b__row-desc {
+    max-height: 200px;
+    margin-top: 10px;
+    opacity: 1;
+  }
+
+  .rukm-empower-b__row-toggle {
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rukm-empower-b__row-toggle svg {
+    width: 18px;
+    height: 18px;
+    fill: #c9a44a;
+    transition: transform 0.3s ease;
+  }
+
+  .rukm-empower-b__row.active .rukm-empower-b__row-toggle svg {
+    transform: rotate(180deg);
+  }
+
+  /* ── Separator between Empower and Pillars ── */
+  .rukm-empower-b__sep {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 56px 0 48px;
+  }
+
+  .rukm-empower-b__sep-line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(201, 164, 74, 0.3), transparent);
+  }
+
+  .rukm-empower-b__sep-icon {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(201, 164, 74, 0.3);
+  }
+
+  .rukm-empower-b__sep-icon svg {
+    width: 18px;
+    height: 18px;
+    fill: #c9a44a;
+  }
+
+  /* ── Pillars Section ── */
+  .rukm-empower-b__pillars-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+  }
+
+  .rukm-empower-b__pillars-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: #ffffff;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+
+  .rukm-empower-b__pillars-bar {
+    width: 50px;
+    height: 2px;
+    background: linear-gradient(90deg, #c9a44a, #f5d98a);
+    margin: 0 auto 48px;
+  }
+
+  .rukm-empower-b__pillars-grid {
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+  }
+
+  .rukm-empower-b__pillar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    max-width: 180px;
+  }
+
+  .rukm-empower-b__pillar-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 20px;
+    transition: transform 0.4s ease;
+  }
+
+  .rukm-empower-b__pillar-circle::before {
+    content: '';
+    position: absolute;
+    inset: -4px;
+    border-radius: 50%;
+    border: 2px solid #c9a44a;
+    transition: all 0.4s ease;
+  }
+
+  .rukm-empower-b__pillar:hover .rukm-empower-b__pillar-circle {
+    transform: translateY(-5px);
+  }
+
+  .rukm-empower-b__pillar:hover .rukm-empower-b__pillar-circle::before {
+    border-color: #f5d98a;
+    box-shadow: 0 0 20px rgba(201, 164, 74, 0.2);
+  }
+
+  .rukm-empower-b__pillar-circle img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .rukm-empower-b__pillar-label {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: color 0.3s ease;
+  }
+
+  .rukm-empower-b__pillar:hover .rukm-empower-b__pillar-label {
+    color: #c9a44a;
+  }
+
+  /* ── Mobile ── */
+  @media (max-width: 768px) {
+    .rukm-empower-b { padding: 0 16px 0; }
+    .rukm-empower-b__transition { margin-bottom: 40px; }
+    .rukm-empower-b__header { margin-bottom: 32px; }
+
+    .rukm-empower-b__label { font-size: 11px; letter-spacing: 3px; padding: 8px 18px; margin-bottom: 18px; }
+    .rukm-empower-b__label svg { width: 15px; height: 15px; }
+    .rukm-empower-b__title { font-size: 26px; margin-bottom: 12px; }
+    .rukm-empower-b__subtitle { font-size: 13px; }
+
+    .rukm-empower-b__row { padding: 20px 8px; gap: 12px; }
+    .rukm-empower-b__row-num { font-size: 12px; width: 22px; }
+    .rukm-empower-b__row-accent { height: 18px; }
+    .rukm-empower-b__row-title { font-size: 14px; letter-spacing: 1px; }
+    .rukm-empower-b__row-desc { font-size: 13px; line-height: 1.7; }
+    .rukm-empower-b__row-toggle { width: 24px; height: 24px; }
+    .rukm-empower-b__row-toggle svg { width: 14px; height: 14px; }
+
+    .rukm-empower-b__sep { margin: 36px 0 32px; }
+    .rukm-empower-b__sep-icon { width: 30px; height: 30px; }
+    .rukm-empower-b__sep-icon svg { width: 14px; height: 14px; }
+
+    .rukm-empower-b__pillars-title { font-size: 24px; }
+    .rukm-empower-b__pillars-bar { margin-bottom: 32px; }
+
+    .rukm-empower-b__pillars-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px 20px;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    .rukm-empower-b__pillar { max-width: none; }
+    .rukm-empower-b__pillar-circle { width: 100px; height: 100px; margin-bottom: 14px; }
+    .rukm-empower-b__pillar-label { font-size: 13px; letter-spacing: 2px; }
+
+    .rukm-empower-b__bottom-divider { height: 3px; }
+  }
+
+
+  .rukm-test-c * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  .rukm-test-c {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+  }
+
+  /* ── Top Zone: Cream ── */
+  .rukm-test-c__top {
+    background: #f7f5f0;
+    padding: 80px 24px 60px;
+  }
+
+  .rukm-test-c__container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  /* ── Heading ── */
+  .rukm-test-c__heading {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .rukm-test-c__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+  }
+
+  .rukm-test-c__gold { color: #c9a44a; }
+
+  .rukm-test-c__bar {
+    width: 50px;
+    height: 2px;
+    background: linear-gradient(90deg, #c9a44a, #f5d98a);
+    margin: 0 auto 16px;
+  }
+
+  .rukm-test-c__subtitle {
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.6;
+  }
+
+  /* ── Pastor Cards (3 across) ── */
+  .rukm-test-c__pastors {
+    display: flex;
+    gap: 24px;
+  }
+
+  .rukm-test-c__pastor-card {
+    flex: 1;
+    background: #ffffff;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .rukm-test-c__pastor-card:hover {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+  }
+
+  .rukm-test-c__pastor-accent {
+    height: 4px;
+    background: linear-gradient(90deg, #c9a44a, #f5d98a);
+  }
+
+  .rukm-test-c__pastor-body { padding: 28px 24px 24px; display: flex; flex-direction: column; flex-grow: 1; }
+
+  .rukm-test-c__pastor-stars {
+    display: flex;
+    gap: 3px;
+    margin-bottom: 16px;
+  }
+
+  .rukm-test-c__pastor-stars svg { width: 16px; height: 16px; fill: #f5b400; }
+
+  .rukm-test-c__pastor-text {
+    font-size: 13px;
+    line-height: 1.75;
+    color: #444444;
+    font-style: italic;
+    flex-grow: 1;
+    margin-bottom: 20px;
+  }
+
+  .rukm-test-c__pastor-footer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-top: 1px solid #f0ece4;
+    padding-top: 16px;
+  }
+
+  .rukm-test-c__pastor-avatar {
+    width: 40px;
+    height: 40px;
+    background: #111111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .rukm-test-c__pastor-avatar span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #c9a44a;
+  }
+
+  .rukm-test-c__pastor-info {}
+
+  .rukm-test-c__pastor-name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1px;
+  }
+
+  .rukm-test-c__pastor-church {
+    font-size: 11px;
+    color: #888888;
+    font-style: italic;
+  }
+
+  /* ── Google Badge (bridge between zones) ── */
+  .rukm-test-c__badge-zone {
+    background: linear-gradient(to bottom, #f7f5f0 50%, #0a0a0a 50%);
+    padding: 0 24px;
+  }
+
+  .rukm-test-c__google-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    max-width: 440px;
+    margin: 0 auto;
+    padding: 18px 32px;
+    background: #111111;
+    border: 1px solid rgba(201, 164, 74, 0.2);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 2;
+  }
+
+  .rukm-test-c__google-g { width: 28px; height: 28px; flex-shrink: 0; }
+
+  .rukm-test-c__google-info { display: flex; flex-direction: column; gap: 2px; }
+
+  .rukm-test-c__google-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .rukm-test-c__google-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .rukm-test-c__google-rating {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  .rukm-test-c__stars { display: flex; gap: 2px; }
+  .rukm-test-c__stars svg { width: 16px; height: 16px; fill: #f5b400; }
+
+  .rukm-test-c__google-count { font-size: 13px; color: #888888; }
+
+  /* ── Bottom Zone: Dark ── */
+  .rukm-test-c__bottom {
+    background: #0a0a0a;
+    padding: 44px 0 64px;
+    overflow: hidden;
+  }
+
+  .rukm-test-c__ticker-label {
+    text-align: center;
+    margin-bottom: 28px;
+    padding: 0 24px;
+  }
+
+  .rukm-test-c__ticker-label span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #c9a44a;
+  }
+
+  /* ── Auto-scrolling Ticker ── */
+  .rukm-test-c__ticker {
+    display: flex;
+    width: max-content;
+    animation: rukmTicker 40s linear infinite;
+  }
+
+  .rukm-test-c__ticker:hover { animation-play-state: paused; }
+
+  @keyframes rukmTicker {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .rukm-test-c__ticker-card {
+    min-width: 280px;
+    max-width: 280px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 24px 20px 20px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+  }
+
+  .rukm-test-c__ticker-card:hover {
+    background: rgba(201, 164, 74, 0.06);
+    border-color: rgba(201, 164, 74, 0.2);
+  }
+
+  .rukm-test-c__review-stars {
+    display: flex;
+    gap: 2px;
+    margin-bottom: 12px;
+  }
+
+  .rukm-test-c__review-stars svg { width: 14px; height: 14px; fill: #f5b400; }
+
+  .rukm-test-c__review-text {
+    font-size: 13px;
+    line-height: 1.7;
+    color: #bbbbbb;
+    flex-grow: 1;
+    margin-bottom: 16px;
+  }
+
+  .rukm-test-c__review-author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    padding-top: 12px;
+  }
+
+  .rukm-test-c__review-initial {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffffff;
+    flex-shrink: 0;
+  }
+
+  .rukm-test-c__review-name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #dddddd;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  /* ── CTA ── */
+  .rukm-test-c__cta-wrap {
+    text-align: center;
+    margin-top: 44px;
+    padding: 0 24px;
+  }
+
+  .rukm-test-c__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #b22222;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 44px;
+    transition: all 0.3s ease;
+  }
+
+  .rukm-test-c__cta:hover {
+    background: #d42b2b;
+    box-shadow: 0 0 24px rgba(212, 43, 43, 0.45);
+  }
+
+  .rukm-test-c__cta svg { width: 18px; height: 18px; fill: #ffffff; }
+
+  /* ── Bottom Divider ── */
+  .rukm-test-c__divider {
+    height: 4px;
+    background: linear-gradient(90deg, #b8912e, #c9a44a, #f5d98a, #c9a44a, #b8912e);
+    box-shadow: 0 4px 16px rgba(201, 164, 74, 0.25);
+  }
+
+  /* ── Mobile ── */
+  @media (max-width: 768px) {
+    .rukm-test-c__top { padding: 50px 16px 44px; }
+    .rukm-test-c__title { font-size: 26px; }
+    .rukm-test-c__subtitle { font-size: 13px; }
+    .rukm-test-c__pastors { flex-direction: column; gap: 16px; }
+    .rukm-test-c__pastor-body { padding: 22px 18px 20px; }
+    .rukm-test-c__pastor-text { font-size: 12px; }
+    .rukm-test-c__pastor-name { font-size: 12px; }
+    .rukm-test-c__pastor-avatar { width: 34px; height: 34px; }
+    .rukm-test-c__pastor-avatar span { font-size: 14px; }
+    .rukm-test-c__badge-zone { padding: 0 16px; }
+    .rukm-test-c__google-badge { padding: 14px 22px; gap: 10px; }
+    .rukm-test-c__bottom { padding: 36px 0 48px; }
+    .rukm-test-c__ticker-card { min-width: 240px; max-width: 240px; }
+    .rukm-test-c__review-text { font-size: 12px; }
+    .rukm-test-c__cta { font-size: 13px; padding: 13px 32px; letter-spacing: 2px; }
+  }
+
+
+  .rukm-rukinfo {
+    width: 100%;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    position: relative;
+    padding: 64px 40px;
+    background: url('images/ministries-background.jpg') center center / cover no-repeat;
+    overflow: hidden;
+  }
+
+  /* Dark overlay */
+  .rukm-rukinfo::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(15, 12, 5, 0.75);
+    z-index: 1;
+  }
+
+  .rukm-rukinfo__container {
+    position: relative;
+    z-index: 2;
+    max-width: 820px;
+    margin: 0 auto;
+  }
+
+  /* Frosted glass card */
+  .rukm-rukinfo__card {
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(201, 164, 74, 0.25);
+    border-radius: 4px;
+    padding: 40px 48px 36px;
+    position: relative;
+  }
+
+  /* Gold corner accents */
+  .rukm-rukinfo__card::before,
+  .rukm-rukinfo__card::after {
+    content: '';
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    border-color: #c9a44a;
+    border-style: solid;
+    transition: all 0.4s ease;
+  }
+
+  .rukm-rukinfo__card::before {
+    top: -1px;
+    left: -1px;
+    border-width: 2px 0 0 2px;
+    border-radius: 4px 0 0 0;
+  }
+
+  .rukm-rukinfo__card::after {
+    bottom: -1px;
+    right: -1px;
+    border-width: 0 2px 2px 0;
+    border-radius: 0 0 4px 0;
+  }
+
+  .rukm-rukinfo__card:hover::before,
+  .rukm-rukinfo__card:hover::after {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Title */
+  .rukm-rukinfo__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  /* Subtitle (501c3) */
+  .rukm-rukinfo__subtitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #c9a44a;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+  }
+
+  /* Divider */
+  .rukm-rukinfo__divider {
+    width: 50px;
+    height: 2px;
+    background: linear-gradient(90deg, #c9a44a, #f5d98a);
+    border: none;
+    margin: 0 auto 24px;
+  }
+
+  /* Description */
+  .rukm-rukinfo__desc {
+    color: #d4d4d4;
+    font-size: 15px;
+    line-height: 1.8;
+    text-align: center;
+    max-width: 680px;
+    margin: 0 auto 28px;
+  }
+
+  /* Checklist */
+  .rukm-rukinfo__list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .rukm-rukinfo__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 10px 18px;
+    background: rgba(255, 255, 255, 0.04);
+    border-left: 3px solid transparent;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+
+  .rukm-rukinfo__item:hover {
+    background: rgba(201, 164, 74, 0.08);
+    border-left-color: #c9a44a;
+    transform: translateX(4px);
+  }
+
+  /* Gold check icon */
+  .rukm-rukinfo__check {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    margin-top: 1px;
+  }
+
+  .rukm-rukinfo__check svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  .rukm-rukinfo__question {
+    color: #e8e8e8;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.55;
+  }
+
+  /* CTA */
+  .rukm-rukinfo__cta-wrap {
+    text-align: center;
+  }
+
+  .rukm-rukinfo__cta {
+    display: inline-block;
+    background-color: #b22222;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 48px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .rukm-rukinfo__cta:hover {
+    background-color: #d42b2b;
+    box-shadow: 0 0 24px rgba(212, 43, 43, 0.45), 0 0 60px rgba(212, 43, 43, 0.15);
+  }
+
+  /* ── Rooted Section ── */
+  .rukm-rukinfo__rooted-divider {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(201, 164, 74, 0.4), transparent);
+    border: none;
+    margin: 36px 0 32px;
+  }
+
+  .rukm-rukinfo__rooted-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    font-style: italic;
+    line-height: 1.25;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .rukm-rukinfo__rooted-gold {
+    color: #c9a44a;
+  }
+
+  .rukm-rukinfo__rooted-text {
+    color: #c8c8c8;
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto 16px;
+  }
+
+  .rukm-rukinfo__rooted-text:last-of-type {
+    margin-bottom: 28px;
+  }
+
+  .rukm-rukinfo__rooted-cta-wrap {
+    text-align: center;
+  }
+
+  .rukm-rukinfo__rooted-cta {
+    display: inline-block;
+    background-color: #b8912e;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 14px 40px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .rukm-rukinfo__rooted-cta:hover {
+    background-color: #a07c26;
+    box-shadow: 0 0 20px rgba(184, 145, 46, 0.35);
+  }
+
+  /* ===== MOBILE ===== */
+  @media (max-width: 768px) {
+    .rukm-rukinfo {
+      padding: 44px 16px;
+    }
+
+    .rukm-rukinfo__card {
+      padding: 28px 20px 24px;
+    }
+
+    .rukm-rukinfo__card::before,
+    .rukm-rukinfo__card::after {
+      width: 20px;
+      height: 20px;
+    }
+
+    .rukm-rukinfo__title {
+      font-size: 28px;
+      letter-spacing: 2px;
+    }
+
+    .rukm-rukinfo__subtitle {
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+
+    .rukm-rukinfo__divider {
+      margin-bottom: 24px;
+    }
+
+    .rukm-rukinfo__desc {
+      font-size: 13px;
+      line-height: 1.7;
+      margin-bottom: 28px;
+    }
+
+    .rukm-rukinfo__list {
+      gap: 10px;
+      margin-bottom: 32px;
+    }
+
+    .rukm-rukinfo__item {
+      padding: 12px 14px;
+      gap: 10px;
+    }
+
+    .rukm-rukinfo__check {
+      width: 18px;
+      height: 18px;
+    }
+
+    .rukm-rukinfo__check svg {
+      width: 18px;
+      height: 18px;
+    }
+
+    .rukm-rukinfo__question {
+      font-size: 13px;
+    }
+
+    .rukm-rukinfo__cta {
+      font-size: 14px;
+      padding: 15px 36px;
+      letter-spacing: 2px;
+    }
+
+    .rukm-rukinfo__rooted-divider {
+      margin: 28px 0 24px;
+    }
+
+    .rukm-rukinfo__rooted-title {
+      font-size: 22px;
+      margin-bottom: 18px;
+    }
+
+    .rukm-rukinfo__rooted-text {
+      font-size: 13px;
+      line-height: 1.7;
+      margin-bottom: 14px;
+    }
+
+    .rukm-rukinfo__rooted-text:last-of-type {
+      margin-bottom: 24px;
+    }
+
+    .rukm-rukinfo__rooted-cta {
+      font-size: 13px;
+      padding: 13px 32px;
+      letter-spacing: 2px;
+    }
+  }
+
+
+  .rukm-faq-c * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  .rukm-faq-c {
+    width: 100%;
+    background: #f7f5f0;
+    font-family: 'Inter', sans-serif;
+    padding: 80px 24px;
+    border-top: 2px solid #c9a44a;
+  }
+
+  .rukm-faq-c__container {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  /* ── Heading ── */
+  .rukm-faq-c__heading {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .rukm-faq-c__label {
+    font-family: 'Oswald', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #c9a44a;
+    margin-bottom: 12px;
+  }
+
+  .rukm-faq-c__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+  }
+
+  .rukm-faq-c__gold { color: #c9a44a; }
+
+  .rukm-faq-c__bar {
+    width: 50px;
+    height: 2px;
+    background: linear-gradient(90deg, #c9a44a, #f5d98a);
+    margin: 0 auto;
+  }
+
+  /* ── Accordion ── */
+  .rukm-faq-c__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rukm-faq-c__item {
+    border-bottom: 1px solid #e4dfd4;
+    overflow: hidden;
+  }
+
+  .rukm-faq-c__question {
+    width: 100%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 22px 4px;
+    text-align: left;
+    transition: all 0.3s ease;
+  }
+
+  .rukm-faq-c__question:hover .rukm-faq-c__number {
+    color: #c9a44a;
+  }
+
+  /* Large gold number */
+  .rukm-faq-c__number {
+    flex-shrink: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #d4c9a8;
+    line-height: 1;
+    min-width: 40px;
+    text-align: center;
+    transition: color 0.3s ease;
+  }
+
+  .rukm-faq-c__item.active .rukm-faq-c__number {
+    color: #c9a44a;
+  }
+
+  .rukm-faq-c__q-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  .rukm-faq-c__question-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    letter-spacing: 0.5px;
+    transition: color 0.3s ease;
+  }
+
+  .rukm-faq-c__item.active .rukm-faq-c__question-text {
+    color: #b8912e;
+  }
+
+  /* Arrow icon */
+  .rukm-faq-c__arrow {
+    flex-shrink: 0;
+    width: 12px;
+    height: 12px;
+    border-right: 2px solid #c9a44a;
+    border-bottom: 2px solid #c9a44a;
+    transform: rotate(45deg);
+    transition: transform 0.35s ease;
+    margin-bottom: 4px;
+  }
+
+  .rukm-faq-c__item.active .rukm-faq-c__arrow {
+    transform: rotate(-135deg);
+    margin-bottom: 0;
+    margin-top: 4px;
+  }
+
+  /* Answer panel */
+  .rukm-faq-c__answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+    padding: 0 4px 0 64px;
+  }
+
+  .rukm-faq-c__item.active .rukm-faq-c__answer {
+    max-height: 300px;
+    padding: 0 4px 22px 64px;
+  }
+
+  .rukm-faq-c__answer-text {
+    color: #555555;
+    font-size: 14px;
+    line-height: 1.8;
+    border-left: 2px solid #e4dfd4;
+    padding-left: 16px;
+  }
+
+  /* ── Mobile ── */
+  @media (max-width: 768px) {
+    .rukm-faq-c { padding: 50px 16px; }
+    .rukm-faq-c__heading { margin-bottom: 32px; }
+    .rukm-faq-c__title { font-size: 26px; }
+    .rukm-faq-c__question { padding: 18px 2px; gap: 14px; }
+    .rukm-faq-c__number { font-size: 24px; min-width: 30px; }
+    .rukm-faq-c__question-text { font-size: 14px; }
+    .rukm-faq-c__answer { padding-left: 48px; }
+    .rukm-faq-c__item.active .rukm-faq-c__answer { padding: 0 2px 18px 48px; }
+    .rukm-faq-c__answer-text { font-size: 13px; line-height: 1.7; padding-left: 12px; }
+    .rukm-faq-c__arrow { width: 10px; height: 10px; }
+  }

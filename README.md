@@ -8,9 +8,9 @@ Updated from Will's feedback on 10 September 2026. GitHub Pages serves `docs/` f
 
 ## Included
 
-- A revised price-free, date-free landing page with the existing Ministries video and source content.
+- A revised price-free, date-free landing page with the existing Ministries video and original section layouts from Our Approach onward.
 - A full-name/email/phone opt-in modal based on the live KSP funnel.
-- Preview mode: no lead collection or contact storage; the final endpoint and application link remain configurable.
+- Preview mode: no lead collection or contact storage; the confirmed application opens after sample details; the production capture endpoint remains pending.
 - Five emails for opt-ins who have not submitted an application.
 - Ten selected original ads, with ten earlier variations archived.
 - Three primary-copy options and five scripts saved for later.
@@ -20,7 +20,7 @@ Read [HANDOFF.md](HANDOFF.md) for the four client repositories checked, the form
 
 ## Updates
 
-- Landing page: edit `scripts/build_landing.py`, `docs/content/ministries.json` and `docs/landing.css`; run `python3 scripts/build_landing.py`.
+- Landing page: edit `docs/content/campaign-frame.html`, `docs/content/ministries-sections.html`, `docs/content/ministries.json` and their CSS. Preserve the original source styles recorded in `source/ministries/`;; run `python3 scripts/build_landing.py`.
 - Form: `docs/funnel-config.js`, `docs/funnel-core.js`, `docs/funnel.js`. Run `node --test tests/funnel.test.cjs`.
 - Emails and ad manifest: `docs/review/content/`. Primary copy: `docs/review/downloads/primary-copy.md`.
 - Hub: edit `scripts/build_review.py` and `docs/review/review.css`; run `python3 scripts/build_review.py`.

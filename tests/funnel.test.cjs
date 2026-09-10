@@ -4,6 +4,21 @@ const { validateLead, submitLead } = require('../docs/funnel-core.js');
 const lead = { name: 'Example Pastor', email: 'example@example.org', phone: '+1 555 010 1234' };
 const baseUrl = 'https://example.org/revival/?utm_source=review&utm_campaign=revival&email=should-not-pass@example.org';
 const config = { mode: 'live', captureEndpoint: '/api/revival-lead', applicationUrl: '/application', source: 'revival-landing' };
+test('published configuration previews the confirmed application without capturing a lead', async () => {
+ const fs = require('node:fs');
+ const vm = require('node:vm');
+ const context = { window: {} };
+ vm.runInNewContext(fs.readFileSync(require.resolve('../docs/funnel-config.js'), 'utf8'), context);
+ const published = context.window.REVIVAL_FUNNEL;
+ assert.equal(published.mode, 'preview');
+ const result = await submitLead(published, lead, { baseUrl, fetchImpl: () => assert.fail('preview must never save a lead') });
+ assert.equal(result.nextUrl, 'https://go.riseupkings.com/rukminapplication');
+ assert.equal(result.preview, true);
+ const live = await submitLead({ ...published, mode: 'live', captureEndpoint: '/api/revival-lead' }, lead, {
+  baseUrl, fetchImpl: async () => ({ ok: true, json: async () => ({ ok: true }) })
+ });
+ assert.equal(live.nextUrl, 'https://go.riseupkings.com/rukminapplication?utm_source=review&utm_campaign=revival');
+});
 test('preview validates but never sends or propagates contact details', async () => {
  let calls = 0;
  const result = await submitLead({ mode: 'preview', previewUrl: 'application-preview.html' }, lead, { baseUrl, fetchImpl: () => { calls++; } });

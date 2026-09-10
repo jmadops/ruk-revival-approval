@@ -1,0 +1,345 @@
+
+  .rukm-test-c * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  .rukm-test-c {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+  }
+
+  /* ── Top Zone: Cream ── */
+  .rukm-test-c__top {
+    background: #f7f5f0;
+    padding: 80px 24px 60px;
+  }
+
+  .rukm-test-c__container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  /* ── Heading ── */
+  .rukm-test-c__heading {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .rukm-test-c__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+  }
+
+  .rukm-test-c__gold { color: #c9a44a; }
+
+  .rukm-test-c__bar {
+    width: 50px;
+    height: 2px;
+    background: linear-gradient(90deg, #c9a44a, #f5d98a);
+    margin: 0 auto 16px;
+  }
+
+  .rukm-test-c__subtitle {
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.6;
+  }
+
+  /* ── Pastor Cards (3 across) ── */
+  .rukm-test-c__pastors {
+    display: flex;
+    gap: 24px;
+  }
+
+  .rukm-test-c__pastor-card {
+    flex: 1;
+    background: #ffffff;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .rukm-test-c__pastor-card:hover {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+  }
+
+  .rukm-test-c__pastor-accent {
+    height: 4px;
+    background: linear-gradient(90deg, #c9a44a, #f5d98a);
+  }
+
+  .rukm-test-c__pastor-body { padding: 28px 24px 24px; display: flex; flex-direction: column; flex-grow: 1; }
+
+  .rukm-test-c__pastor-stars {
+    display: flex;
+    gap: 3px;
+    margin-bottom: 16px;
+  }
+
+  .rukm-test-c__pastor-stars svg { width: 16px; height: 16px; fill: #f5b400; }
+
+  .rukm-test-c__pastor-text {
+    font-size: 13px;
+    line-height: 1.75;
+    color: #444444;
+    font-style: italic;
+    flex-grow: 1;
+    margin-bottom: 20px;
+  }
+
+  .rukm-test-c__pastor-footer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-top: 1px solid #f0ece4;
+    padding-top: 16px;
+  }
+
+  .rukm-test-c__pastor-avatar {
+    width: 40px;
+    height: 40px;
+    background: #111111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .rukm-test-c__pastor-avatar span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #c9a44a;
+  }
+
+  .rukm-test-c__pastor-info {}
+
+  .rukm-test-c__pastor-name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1px;
+  }
+
+  .rukm-test-c__pastor-church {
+    font-size: 11px;
+    color: #888888;
+    font-style: italic;
+  }
+
+  /* ── Google Badge (bridge between zones) ── */
+  .rukm-test-c__badge-zone {
+    background: linear-gradient(to bottom, #f7f5f0 50%, #0a0a0a 50%);
+    padding: 0 24px;
+  }
+
+  .rukm-test-c__google-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    max-width: 440px;
+    margin: 0 auto;
+    padding: 18px 32px;
+    background: #111111;
+    border: 1px solid rgba(201, 164, 74, 0.2);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 2;
+  }
+
+  .rukm-test-c__google-g { width: 28px; height: 28px; flex-shrink: 0; }
+
+  .rukm-test-c__google-info { display: flex; flex-direction: column; gap: 2px; }
+
+  .rukm-test-c__google-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .rukm-test-c__google-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .rukm-test-c__google-rating {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  .rukm-test-c__stars { display: flex; gap: 2px; }
+  .rukm-test-c__stars svg { width: 16px; height: 16px; fill: #f5b400; }
+
+  .rukm-test-c__google-count { font-size: 13px; color: #888888; }
+
+  /* ── Bottom Zone: Dark ── */
+  .rukm-test-c__bottom {
+    background: #0a0a0a;
+    padding: 44px 0 64px;
+    overflow: hidden;
+  }
+
+  .rukm-test-c__ticker-label {
+    text-align: center;
+    margin-bottom: 28px;
+    padding: 0 24px;
+  }
+
+  .rukm-test-c__ticker-label span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #c9a44a;
+  }
+
+  /* ── Auto-scrolling Ticker ── */
+  .rukm-test-c__ticker {
+    display: flex;
+    width: max-content;
+    animation: rukmTicker 40s linear infinite;
+  }
+
+  .rukm-test-c__ticker:hover { animation-play-state: paused; }
+
+  @keyframes rukmTicker {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .rukm-test-c__ticker-card {
+    min-width: 280px;
+    max-width: 280px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 24px 20px 20px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+  }
+
+  .rukm-test-c__ticker-card:hover {
+    background: rgba(201, 164, 74, 0.06);
+    border-color: rgba(201, 164, 74, 0.2);
+  }
+
+  .rukm-test-c__review-stars {
+    display: flex;
+    gap: 2px;
+    margin-bottom: 12px;
+  }
+
+  .rukm-test-c__review-stars svg { width: 14px; height: 14px; fill: #f5b400; }
+
+  .rukm-test-c__review-text {
+    font-size: 13px;
+    line-height: 1.7;
+    color: #bbbbbb;
+    flex-grow: 1;
+    margin-bottom: 16px;
+  }
+
+  .rukm-test-c__review-author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    padding-top: 12px;
+  }
+
+  .rukm-test-c__review-initial {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffffff;
+    flex-shrink: 0;
+  }
+
+  .rukm-test-c__review-name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #dddddd;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  /* ── CTA ── */
+  .rukm-test-c__cta-wrap {
+    text-align: center;
+    margin-top: 44px;
+    padding: 0 24px;
+  }
+
+  .rukm-test-c__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #b22222;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 44px;
+    transition: all 0.3s ease;
+  }
+
+  .rukm-test-c__cta:hover {
+    background: #d42b2b;
+    box-shadow: 0 0 24px rgba(212, 43, 43, 0.45);
+  }
+
+  .rukm-test-c__cta svg { width: 18px; height: 18px; fill: #ffffff; }
+
+  /* ── Bottom Divider ── */
+  .rukm-test-c__divider {
+    height: 4px;
+    background: linear-gradient(90deg, #b8912e, #c9a44a, #f5d98a, #c9a44a, #b8912e);
+    box-shadow: 0 4px 16px rgba(201, 164, 74, 0.25);
+  }
+
+  /* ── Mobile ── */
+  @media (max-width: 768px) {
+    .rukm-test-c__top { padding: 50px 16px 44px; }
+    .rukm-test-c__title { font-size: 26px; }
+    .rukm-test-c__subtitle { font-size: 13px; }
+    .rukm-test-c__pastors { flex-direction: column; gap: 16px; }
+    .rukm-test-c__pastor-body { padding: 22px 18px 20px; }
+    .rukm-test-c__pastor-text { font-size: 12px; }
+    .rukm-test-c__pastor-name { font-size: 12px; }
+    .rukm-test-c__pastor-avatar { width: 34px; height: 34px; }
+    .rukm-test-c__pastor-avatar span { font-size: 14px; }
+    .rukm-test-c__badge-zone { padding: 0 16px; }
+    .rukm-test-c__google-badge { padding: 14px 22px; gap: 10px; }
+    .rukm-test-c__bottom { padding: 36px 0 48px; }
+    .rukm-test-c__ticker-card { min-width: 240px; max-width: 240px; }
+    .rukm-test-c__review-text { font-size: 12px; }
+    .rukm-test-c__cta { font-size: 13px; padding: 13px 32px; letter-spacing: 2px; }
+  }

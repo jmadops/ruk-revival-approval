@@ -1,0 +1,23 @@
+/* Integration only. Original section styles live in ministries.css. */
+@font-face{font-family:Oswald;font-style:normal;font-weight:400;src:url('fonts/Oswald-400.ttf') format('truetype');font-display:swap}
+@font-face{font-family:Oswald;font-style:normal;font-weight:500;src:url('fonts/Oswald-500.ttf') format('truetype');font-display:swap}
+@font-face{font-family:Oswald;font-style:normal;font-weight:600;src:url('fonts/Oswald-600.ttf') format('truetype');font-display:swap}
+@font-face{font-family:Oswald;font-style:normal;font-weight:700;src:url('fonts/Oswald-700.ttf') format('truetype');font-display:swap}
+/* Original page base line height, where section styles inherit it. */
+section[class^="rukm-"]{line-height:1.5}
+section[class^="rukm-"] h2,section[class^="rukm-"] h3{line-height:1.5}
+.rukm-approach-b3 .rukm-approach-b3__title,.rukm-empower-b .rukm-empower-b__title{line-height:1.2}
+.rukm-rukinfo .rukm-rukinfo__rooted-title{line-height:1.25}
+/* Source anchors become buttons that open the existing opt-in. */
+section[class^="rukm-"] button[data-apply]{border:0;cursor:pointer;line-height:1.5}
+.rukm-rukinfo button[data-apply]{display:inline-block}
+/* Retain the source dark cards for the three sourced Revival reviews. */
+.revival-review-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;padding:0 24px}
+.revival-review-grid .rukm-test-c__ticker-card{min-width:0;max-width:none;margin:0}
+.rukm-test-c .revival-review-link{display:block;color:#c9a44a;font-size:13px;margin-top:14px;text-decoration:underline}
+.rukm-test-c__review-initial{background:#6c5527}
+/* Answers stay readable at narrow sizes and expose their expanded state. */
+.rukm-faq-c__item.active .rukm-faq-c__answer{max-height:none}
+#google-reviews{scroll-margin-top:24px}
+@media(max-width:768px){.revival-review-grid{grid-template-columns:1fr;padding:0 16px;gap:16px}}
+@media(prefers-reduced-motion:reduce){section[class^="rukm-"] *,section[class^="rukm-"] *::before,section[class^="rukm-"] *::after{animation:none!important;transition:none!important}}
