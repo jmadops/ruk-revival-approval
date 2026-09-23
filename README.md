@@ -4,11 +4,13 @@ Approval hub: https://jmadops.github.io/ruk-revival-approval/review/
 
 Landing page: https://jmadops.github.io/ruk-revival-approval/
 
+Christian men's ministry leader variant: https://jmadops.github.io/ruk-revival-approval/leaders.html
+
 Updated from Will's feedback on 10 September 2026. GitHub Pages serves `docs/` from `main`.
 
 ## Included
 
-- A revised price-free, date-free landing page with the existing Ministries video and original section layouts from Our Approach onward.
+- Two revised, price-free, date-free landing pages: the original pastor campaign and a separate variant for Christian men's ministry leaders outside traditional church roles.
 - A full-name/email/phone opt-in modal based on the live KSP funnel.
 - Preview mode: no lead collection or contact storage; the confirmed application opens after sample details; the production capture endpoint remains pending.
 - Five emails for opt-ins who have not submitted an application.
