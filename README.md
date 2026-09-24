@@ -4,6 +4,10 @@ Approval hub: https://jmadops.github.io/ruk-revival-approval/review/
 
 Landing page: https://jmadops.github.io/ruk-revival-approval/
 
+Pastor headline V1: https://jmadops.github.io/ruk-revival-approval/pastor-reignite.html
+
+Pastor headline V2: https://jmadops.github.io/ruk-revival-approval/pastor-burnout.html
+
 Christian organization variant: https://jmadops.github.io/ruk-revival-approval/leaders.html
 
 Updated from Will's feedback on 10 September 2026. GitHub Pages serves `docs/` from `main`.

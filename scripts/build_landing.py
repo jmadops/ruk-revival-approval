@@ -25,6 +25,32 @@ sections = sections.replace('<!-- GOOGLE_REVIEWS -->', reviews)
 page = (root / 'content/campaign-frame.html').read_text().replace('<!-- MINISTRIES_SECTIONS -->', sections)
 (root / 'index.html').write_text(page)
 
+# Keep every element except the hero message identical so VWO can isolate the
+# effect of the two results-led headlines Will approved on 23 September.
+headline_variants = [
+    {
+        'file': 'pastor-reignite.html',
+        'title': 'Revival | Reignite Your Passion for Ministry | RUK Ministries',
+        'headline': 'In Three Days,<br><em>Reignite Your Passion<br>for Ministry and Restore<br>Your Work‑Life Harmony</em>',
+        'copy': 'A life-transforming three-day experience designed specifically for pastors who are ready to feel fully alive in their calling again.',
+    },
+    {
+        'file': 'pastor-burnout.html',
+        'title': 'Revival | For Burned-Out Pastors | RUK Ministries',
+        'headline': 'How Burned-Out Pastors<br><em>Are Reigniting Their Passion for Ministry<br>in Just Three Days</em>',
+        'copy': 'So they can serve their church without sacrificing their family.',
+    },
+]
+control_title = '<title>Revival | The Man Behind the Ministry | RUK Ministries</title>'
+control_headline = '<h1>The church gets<br>your best.<br><em>What’s left for you?</em></h1>'
+control_copy = '<p class="hero-copy">Everyone knows where to find you when something goes wrong. Your own struggles can stay out of the conversation. Revival gives the man behind the pulpit three days to confront what ministry has pushed aside.</p>'
+for variant in headline_variants:
+    assert control_title in page and control_headline in page and control_copy in page
+    variant_page = page.replace(control_title, f'<title>{variant["title"]}</title>')
+    variant_page = variant_page.replace(control_headline, f'<h1>{variant["headline"]}</h1>')
+    variant_page = variant_page.replace(control_copy, f'<p class="hero-copy">{variant["copy"]}</p>')
+    (root / variant['file']).write_text(variant_page)
+
 # Build the separate campaign variant for Christian men serving through
 # mission-driven organizations while preserving the pastor-focused page.
 leader_sections = (root / 'content/ministries-sections.html').read_text()
