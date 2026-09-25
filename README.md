@@ -18,7 +18,7 @@ Updated from Will's feedback on 10 September 2026. GitHub Pages serves `docs/` f
 - A full-name/email/phone opt-in modal based on the live KSP funnel.
 - Preview mode: no lead collection or contact storage; the confirmed application opens after sample details; the production capture endpoint remains pending.
 - Five emails for opt-ins who have not submitted an application.
-- Ten selected original ads, with ten earlier variations archived.
+- Twenty selected ads: ten pastor concepts and ten matching Christian-organization concepts, with ten earlier variations archived.
 - Three primary-copy options and five scripts saved for later.
 - Source notes, full client download pack and a client-team handoff.
 
